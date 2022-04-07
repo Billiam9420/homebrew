@@ -535,7 +535,7 @@
             "bonusWeapon": "+2",
             "curse": true,
             "entries": [
-                "This battleaxe bears a golden head spun from crystalized honey. Its wooden handle is carved with reliefs of bees. You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+                "This battleaxe bears a golden head spun from crystallized honey. Its wooden handle is carved with reliefs of bees. You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
                 "{@bold {@italic Blessing of the Bee.}} While you are attuned to the axe, you have immunity to poison damage, and you have advantage on any Charisma check to interact with beasts.",
                 "{@bold {@italic Honey Drip.}} While you are holding the battleaxe, you can use an action to cast the {@spell slow|PHB} spell (save DC 15) from the weapon. Once used, this property can’t be used again until the next dawn.",
                 "{@bold {@italic Curse.}} The axe bears a curse that affects any non-{@creature bearfolk|ToB} that attunes to it. Even if the attunement ends, the curse remains. With each passing day, the creature’s physical appearance and stature become more bearlike. After 7 days, the creature looks like a typical {@creature bearfolk|ToB}, but the creature neither loses its racial traits nor gains the racial traits of a {@creature bearfolk|ToB}. The physical changes wrought by the axe can’t be dispelled, but they can be undone by any effect that removes a curse, such as the remove curse spell."
@@ -597,7 +597,7 @@
             ]
         },
         {
-            "name": "Comander's Plate",
+            "name": "Commander's Plate",
             "source": "VoM",
             "page": 19,
             "baseItem": "plate armor|PHB",
@@ -718,7 +718,83 @@
             "entries": [
                 "You gain a +1 bonus to attack and damage rolls made with this magic arrow. On a hit, the arrow transforms into a 10-foot-long wooden log centered on the target, destroying the arrow. The target and each creature in the log’s area must make a DC 15 Dexterity saving throw. On a failure, a creature takes {@damage 3d6} bludgeoning damage and is knocked {@condition prone} and {@condition restrained} under the log. On a success, a creature takes half the damage and isn’t knocked {@condition prone} or {@condition restrained}. A {@condition restrained} creature can take its action to free itself by succeeding on a DC 15 Strength check. The log lasts for 1 minute then crumbles to dust, freeing those {@condition restrained} by it."
             ]
-        }
+        },
+        {
+            "name": "Dimensional Net",
+            "source": "VoM",
+            "page": 21,
+            "baseItem": "net|PHB",
+            "type": "R",
+            "rarity": "rare",
+            "reqAttune": true,
+			"weaponCategory": "martial",
+            "weapon": true,
+            "property": [
+                "S",
+                "T"
+            ],
+			"range": "5/15",
+            "weight": 3,
+            "bonusWeapon": "+1",
+            "entries": [
+                "Woven from the hair of celestials and fiends, this shimmering iridescent net can subdue and capture otherworldly creatures. You have a +1 bonus to attack rolls with this magic weapon. In addition to the normal effects of a net, this net prevents any Large or smaller aberration, celestial, or fiend hit by it from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. When such a creature is bound in this way, a creature must succeed on a DC 30 Strength (Athletics) check to free the bound creature.",
+                "The net has immunity to damage dealt by the bound creature, but another creature can deal 20 slashing damage to the net and free the bound creature, ending the effect. The net has AC 15 and 30 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the net drops to 0 hit points, it is destroyed.",
+                {
+                    "type": "entries",
+                    "name": "Special",
+                    "entries": [
+                        "A Large or smaller creature hit by a net is {@condition restrained} until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dirgeblade",
+            "source": "VoM",
+            "page": 21,
+            "baseItem": "rapier|PHB",
+            "type": "M",
+            "rarity": "legendary",
+            "reqAttune": "by a bard",
+			"weaponCategory": "martial",
+            "weapon": true,
+            "property": [
+                "F"
+            ],
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "weight": 2,
+            "bonusWeapon": "+3",
+            "entries": [
+                "This weapon is an exquisitely crafted rapier set in a silver and leather scabbard. The blade glows a faint stormy blue and is encircled by swirling wisps of clouds. You gain a +3 bonus to attack and damage rolls made with this magic weapon.",
+                "This weapon, when unsheathed, sheds dim blue light in a 20-foot radius. When you hit a creature with it, you can expend 1 {@classFeature Bardic Inspiration|Bard||1} to impart a sense of overwhelming grief in the target. A creature affected by this grief must succeed on a DC 15 Wisdom saving throw or fall prone and become incapacitated by sadness until the end of its next turn.",
+                "Once a month under an open sky, you can use a bonus action to speak this magic sword’s command word and cause the sword to sing a sad dirge. This dirge conjures heavy rain (or snow in freezing temperatures) in the region for {@dice 2d6} hours. The precipitation falls in an X-mile radius around you, where X is equal to your level."
+            ]
+        },
+        {
+			"name": "Dirk of Daring",
+			"source": "VoM",
+			"page": 22,
+			"baseItem": "dagger|phb",
+			"type": "M",
+			"rarity": "uncommon",
+            "reqAttune": true,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"bonusWeapon": "+1",
+			"weapon": true,
+			"weight": 1,
+			"entries": [
+				"YYou gain a +1 bonus to attack and damage rolls made with this magic weapon. While holding the dagger, you have advantage on saving throws against being frightened."
+			]
+		}
     ],
     "variant": [
         {
@@ -1106,6 +1182,94 @@
                 "entries": [
                     "The blade of this magic weapon gleams with a faint golden shine, and the pommel is etched with a sunburst. As a bonus action, you can command the weapon to shed dim light out to 5 feet, to shed bright light out to 20 feet and dim light for an additional 20 feet, or to douse the light.",
                     "The weapon deals an extra {@damage 1d6} radiant damage to any creature it hits. This increases to {@damage 2d6} radiant damage if the target is undead or a creature of shadow."
+                ]
+            }
+        },
+        {
+            "name": "Dragonstooth Blade",
+            "type": "GV",
+            "requires": [
+                {
+                    "name": "Greatsword"
+                },
+                {
+                    "name": "Longsword"
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Dragonstooth ",
+                "source": "VoM",
+                "page": 22,
+                "rarity":"very rare",
+                "reqAttune": true,
+                "entries": [
+                    "This razor-sharp blade, little more than leather straps around the base of a large tooth, still carries the power of a dragon. This weapon’s properties are determined by the type of dragon that once owned this tooth. The GM chooses the dragon type or determines it randomly from the options below.",
+                    "When you hit with an attack using this magic sword, the target takes an extra {@damage 1d6} damage of a type determined by the kind of dragon that once owned the tooth. In addition, you have resistance to the type of damage associated with that dragon.",
+                    {
+                        "type": "table",
+                        "colStyles": [
+                            "col-1 text-center",
+                            "col-2 text-left",
+                            "col-2 text-left"
+                        ],
+                        "colLabels": [
+                            "d6",
+                            "Damage Type",
+                            "Dragon Type"
+                        ],
+                        "rows": [
+                            [
+                                "1",
+                                "Acid",
+                                "Black or Copper"
+                            ],
+                            [
+                                "2",
+                                "Fire",
+                                "Brass, Gold, or Red"
+                            ],
+                            [
+                                "3",
+                                "Poison",
+                                "Green"
+                            ],
+                            [
+                                "4",
+                                "Lightning",
+                                "Blue or Bronze"
+                            ],
+                            [
+                                "5",
+                                "Cold",
+                                "Silver or White"
+                            ],
+                            [
+                                "6",
+                                "Necrotic",
+                                "Undead"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Encouraging Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "armor": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Encouraging ",
+                "source": "VoM",
+                "page": 22,
+                "rarity": "very rare",
+                "reqAttune": true,
+                "bonusAc": "+1",
+                "entries": [
+                    "While wearing this armor, you gain a +1 bonus to AC. In addition, each friendly creature within 10 feet of you that can see you gains a +1 bonus to attack rolls and saving throws. If you are a paladin with the Aura of Courage feature, this bonus increases to +2."
                 ]
             }
         }
