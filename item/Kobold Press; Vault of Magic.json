@@ -1252,7 +1252,119 @@
 			"entries": [
 				"You can use this stiletto-bladed dagger to open locks by using an action and making a Strength check. The DC is 5 less than the DC to pick the lock (minimum DC 10). On a success, the lock is broken."
 			]
-		}
+		},
+        {
+            "name": "Mail of the Sword Master",
+            "source": "VoM",
+            "page": 28,
+            "baseItem": "half plate|PHB",
+            "type": "MA",
+            "rarity": "uncommon",
+            "reqAttune": true,
+            "weight": 40,
+            "dexterityMax": 4,
+            "entries": [
+                "While wearing this armor, the maximum Dexterity modifier you can add to determine your Armor Class is 4, instead of 2. While wearing this armor, if you are wielding a sword and no other weapons, you gain a +2 bonus to damage rolls with that sword."
+            ]
+        },
+        {
+            "name": "Manticore's Tail",
+            "source": "VoM",
+            "page": 28,
+            "baseItem": "morningstar|PHB",
+            "type": "M",
+            "rarity": "uncommon",
+            "reqAttune": true,
+            "weaponCategory": "martial",
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "weapon": true,
+            "weight": 4,
+            "entries": [
+                "Ten spikes stick out of the head of this magic weapon. While holding the morningstar, you can fire one of the spikes as a ranged attack, using your Strength modifier for the attack and damage rolls. This attack has a normal range of 100 feet and a long range of 200 feet. On a hit, the spike deals {@damage 1d8} piercing damage. Once all of the weapon’s spikes have been fired, the morningstar deals bludgeoning damage instead of the piercing damage normal for a morningstar until the next dawn, at which time the spikes regrow."
+            ]
+        },
+        {
+            "name": "Masher Basher",
+            "source": "VoM",
+            "page": 28,
+            "baseItem": "greatclub|PHB",
+            "type": "M",
+            "rarity": "uncommon",
+            "weaponCategory": "simple",
+            "dmg1": "1d8",
+            "dmgType": "B",
+            "property": [
+                "2H"
+            ],
+            "weapon": true,
+            "weight": 10,
+            "entries": [
+                "A favored weapon of hill giants, this greatclub appears to be little more than a thick tree branch. When you hit a giant with this magic weapon, the giant takes an extra {@damage 1d8} bludgeoning damage.",
+                "When you roll a 20 on an attack roll made with this weapon, the target is stunned until the end of its next turn."
+            ]
+        },
+        {
+            "name": "Meteoric Plate",
+            "source": "VoM",
+            "page": 28,
+            "baseItem": "plate armor|PHB",
+            "type": "HA",
+            "rarity": "rare",
+            "reqAttune": true,
+            "weight": 65,
+            "entries": [
+                "This plate armor was magically crafted from plates of interlocking stone. Tiny rubies inlaid in the chest create a glittering mosaic of flames. When you fall while wearing this armor, you can tuck your knees against your chest and curl into a ball. While falling in this way, flames form around your body. You take half the usual falling damage when you hit the ground, and fire explodes from your form in a 20-foot-radius sphere. Each creature in this area must make a {@dc 15} Dexterity saving throw. On a failed save, a target takes fire damage equal to the falling damage you took, or half as much on a successful saving throw.",
+                "The fire spreads around corners and ignites flammable objects in the area that aren’t being worn or carried."
+            ]
+        },
+        {
+            "name": "Mountain Hewer",
+            "source": "VoM",
+            "page": 29,
+            "baseItem": "greataxe|PHB",
+            "type": "M",
+            "rarity": "very rare",
+            "reqAttune": true,
+            "weaponCategory": "martial",
+            "dmg1": "1d12",
+            "dmgType": "S",
+            "property": [
+                "H",
+                "2H"
+            ],
+            "weapon": true,
+            "weight": 7,
+            "bonusWeapon": "+2",
+            "recharge": "dawn",
+            "entries": [
+                "You gain a +2 bonus to attack and damage rolls made with this magic weapon. The massive head of this axe is made from chiseled stone lashed to its haft by thick rope and leather strands. Small chips of stone fall from its edge intermittently, though it shows no sign of damage or wear. You can use your action to speak the command word to cause small stones to float and swirl around the axe, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. The light remains until you use a bonus action to speak the command word again or until you drop or sheathe the axe.",
+                "As a bonus action, choose a creature you can see. For 1 minute, that creature must succeed on a {@dc 15} Wisdom saving throw each time it is damaged by the axe or become {@condition frightened} until the end of your next turn. Creatures of Large size or greater have disadvantage on this save. Once used, this property of the axe can’t be used again until the next dawn."
+            ]
+        },
+        {
+            "name": "Mutineer's Blade",
+            "source": "VoM",
+            "page": 29,
+            "baseItem": "scimitar|PHB",
+            "type": "M",
+            "rarity": "rare",
+            "reqAttune": true,
+            "weaponCategory": "martial",
+            "dmg1": "1d6",
+            "dmgType": "S",
+            "property": [
+                "F",
+                "L"
+            ],
+            "weapon": true,
+            "weight": 2,
+            "bonusWeapon": "+2",
+            "entries": [
+                "This finely balanced scimitar has an elaborate brass hilt. You gain a +2 bonus on attack and damage rolls made with this magic weapon. You can use a bonus action to speak the scimitar’s command word, causing the blade to shed bright green light in a 10-foot radius and dim light for an additional 10 feet. The light lasts until you use a bonus action to speak the command word again or until you drop or sheathe the scimitar.",
+                "When you roll a 20 on an attack roll made with this weapon, the target is overcome with the desire for mutiny. On the target’s next turn, it must make one attack against its nearest ally, then the effect ends, whether or not the attack was successful."
+            ]
+        }
     ],
     "variant": [
         {
@@ -2011,6 +2123,122 @@
                 "entries": [
                     "This thin, curved blade has a bell guard shaped like a curled, golden leaf. You gain a +1 bonus to attack and damage rolls with this magic weapon. When you hit an aberration or undead creature with it, that target takes an extra 1d8 damage of the weapon’s type.",
                     "You can use an action to cast the {@spell barkskin} spell on yourself for 1 hour, requiring no concentration. Once used, this property can’t be used again until the next dawn."
+                ]
+            }
+        },
+        {
+            "name": "Mirrored Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "name": "Plate Armor"
+                },
+                {
+                    "name": "Half Plate Armor"
+                },
+                {
+                    "name": "Breastplate"
+                },
+                {
+                    "name": "Shield"
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Mirrored ",
+                "source": "VoM",
+                "page": 28,
+                "rarity": "uncommon",
+                "entries": [
+                    "This metal armor is always polished to a mirror sheen, highly reflective, and can’t be dulled. If a creature has an action or trait that requires it to gaze at you to affect you, such as a basilisk’s Petrifying Gaze or a lich’s Frightening Gaze, it sees its reflection in the armor and is also affected by the gaze."
+                ]
+            }
+        },
+        {
+            "name": "Moonsteel Weapon",
+            "type": "GV",
+            "requires": [
+                {
+                    "name": "Rapier"
+                },
+                {
+                    "name": "Dagger"
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Moonsteel ",
+                "source": "VoM",
+                "page": 28,
+                "rarity": "rare",
+                "entries": [
+                    "The blade of this magic weapon seems to shine from within with a pale, white light. The weapon deals an extra {@damage 1d6} radiant damage to any creature it hits. If the creature is a shapechanger or any other creature not in its true form, it becomes {@condition frightened} until the start of your next turn. At the start of its turn, a creature frightened in this way must succeed on a {@dc 13} Charisma saving throw or immediately return to its true form. For the purpose of this weapon, “shapechanger” refers to any creature with the Shapechanger trait."
+                ]
+            }
+        },
+        {
+            "name": "Mordant Blade",
+            "type": "GV",
+            "requires": [
+                {
+                    "dmgType": "S"
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Mordant ",
+                "source": "VoM",
+                "page": 29,
+                "rarity": "rare",
+                "reqAttune": true,
+                "recharge": "dawn",
+                "entries": [
+                    "You can use a bonus action to speak this magic weapon's command word, causing the blade to weep a caustic, green acid. While weeping acid, the weapon deals an extra {@damage 2d6} acid damage to any target it hits. The weapon continues to weep acid until you use a bonus action to speak the command word again or you sheathe or drop the weapon.",
+                    "{@b {@i Acid Arc.}} While holding the weapon, you can use an action to swing it in a wide arc, spraying acid in a 15-foot cone. Each creature in the cone must make a {@dc 15} Dexterity saving throw, taking {@damage 4d6} acid damage on a failed save, or half as much damage on a successful one. Once used, this property can’t be used again until the next dawn."
+                ]
+            }
+        },
+        {
+            "name": "Mountaineer's Crossbow",
+            "type": "GV",
+            "requires": [
+                {
+                    "crossbow": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Mountaineer's ",
+                "source": "VoM",
+                "page": 29,
+                "rarity": "uncommon",
+                "entries": [
+                    "This crossbow has a weathered look, and scenes of mountains are etched across its stock. An adamantine grappling hook and cable are built into this magic crossbow. While no ammunition is loaded in the crossbow, you can use an action to fire the grappling hook at a surface, structure, precipice, or other similar location that you can see within 60 feet of you. The grappling hook magically attaches to the surface and connects to the crossbow via an adamantine cable.",
+                    "While the grappling hook is attached to a surface and you are holding the crossbow, you can use an action to speak a command word to reel yourself and up to 1,000 pounds of willing creatures and objects connected to you to the surface. Speaking a second command word as a bonus action releases the grappling hook from the surface, reattaching it to the crossbow, and winds the cable back into a tiny pocket dimension inside the crossbow.",
+                    "This cable has AC 12, 20 hit points, and immunity to all damage except acid, lightning, and slashing damage from adamantine weapons. If the cable drops to 0 hit points, the crossbow can’t be used in this way again until 24 hours have passed."
+                ]
+            }
+        },
+        {
+            "name": "Muffled Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "name": "Padded Armor"
+                },
+                {
+                    "name": "Scale Mail"
+                },
+                {
+                    "name": "Half Plate Armor"
+                },
+                {
+                    "type": "HA"
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Muffled ",
+                "source": "VoM",
+                "page": 29,
+                "rarity": "common",
+                "entries": [
+                    "This magical armor is laid with enchantments to mute its noise and ease movement, even muting and dulling its colors and shine when you attempt to conceal yourself. While wearing this armor, you don’t have disadvantage on Dexterity (Stealth) checks as a result of wearing the armor, but you might still have disadvantage on such checks from other effects."
                 ]
             }
         }
