@@ -184,7 +184,16 @@
                 "This haladie features two short, slightly curved blades attached to a single hilt with a short, blue-sheened spike on the hand guard. You gain a +2 bonus to attack and damage rolls made with this magic weapon. While attuned to this sword, you have immunity to poison damage, and, when you take the Dash action, the extra movement you gain is double your speed instead of equal to your speed. When you use the Attack action with this sword, you can make one attack with its hand guard spike (treat as a {@item dagger|PHB}) as a bonus action.",
                 "You can use an action to cause indigo poison to coat the blades of this sword. The poison remains for 1 minute or until two attacks using the blade of this weapon hit one or more creatures. The target must succeed on a {@dc 17} Constitution saving throw or take {@damage 2d10} poison damage and its hit point maximum is reduced by an amount equal to the poison damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. The sword can’t be used this way again until the next dawn.",
                 "When you kill a creature with this weapon, it sheds a single, blue tear as it takes its last breath."
-            ]
+            ],
+            "hasFluff": true,
+            "fluff": {
+                "entries": [
+                    "THE ASP’S KISS IN MIDGARD",
+                    "The haladie is a knife common to Khandiria and the Mharoti Empire, though some have been seen as far west as Nuria Natal. Here are hooks for adding the {@i asp’s kiss} to your campaign.",
+                    "{@b {@i Mysterious Assassin.}} A basteti merchant family in Nuria Natal, the Antars, are being hunted by an unnamed assassin, who causes the Antar victims to weep a single blue tear upon death. The current head of the family, Neerlop Antar, remains unconcerned about the mysterious deaths, but his sister, Tahani Antar, fears for the lives of her children. She believes the assassin wields the legendary {@i asp’s kiss} and seeks adventurers who can track down and stop the assassin before her entire family is destroyed.",
+                    "{@b {@i Retired Warrior.}} Ghazi Taslimi is an old dragonborn warrior who found a magical haladie while fighting in the wars against Khandiria under Sultan Makbule Khezmir. Retired and near the end of his life, Ghazi seeks a worthy inheritor of the asp’s kiss. Thus far, he hasn’t found a successor, leaving a trail of victims stained with blue tears in his wake as he searches."
+                ]
+            }
         },
         {
             "name": "Axe of the Ancients",
@@ -824,7 +833,7 @@
             "recharge": "dawn",
             "entries": [
                 "You gain a +1 to attack and damage rolls with this magic weapon. This bonus increases to +3 when you use the pick to attack a creature made of earth or stone, such as an {@creature earth elemental} or {@creature stone golem}.",
-                "As a bonus action, you can slam the head of the pick into earth, sand, mud, or rock within 5 feet of you to create a wall of that material up to 30 feet long, 3 feet high, and 1 foot thick along that surface. The wall provides half cover to creatures behind it. The pick can’t be used this way again until the next dawn. "
+                "As a bonus action, you can slam the head of the pick into earth, sand, mud, or rock within 5 feet of you to create a wall of that material up to 30 feet long, 3 feet high, and 1 foot thick along that surface. The wall provides half cover to creatures behind it. The pick can’t be used this way again until the next dawn."
             ]
         },
         {
@@ -1051,6 +1060,81 @@
                 "This blackened iron shield is adorned with the menacing relief of a monstrously gaunt skull. You gain a +1 bonus to AC while you wield this shield. This bonus is in addition to the shield’s normal bonus to AC.",
                 "While holding this shield, you can use a bonus action to speak its command word to cast the {@spell fear} spell (save {@dc 13}). The shield can’t be used this way again until the next dusk."
             ]
+        },
+        {
+            "name": "Hammer of Throwing",
+            "source": "VoM",
+            "page": 25,
+            "baseItem": "light hammer|PHB",
+            "type": "M",
+            "rarity": "common",
+            "reqAttune": true,
+            "weaponCategory": "simple",
+            "dmg1": "1d4",
+            "dmgType": "B",
+            "property": [
+                "L",
+                "T"
+            ],
+            "range": "20/60",
+            "bonusWeapon": "+1",
+            "weapon": true,
+            "weight": 2,
+            "entries": [
+                "You gain a +1 bonus to attack and damage rolls with this magic weapon. In addition, when you throw the hammer, it returns to your hand at the end of your turn. If you have no hand free, it falls to the ground at your feet."
+            ]
+        },
+        {
+            "name": "Hexen Blade",
+            "source": "VoM",
+            "page": 26,
+            "baseItem": "shortsword|PHB",
+            "type": "M",
+            "rarity": "rare",
+            "reqAttune": true,
+            "weaponCategory": "martial",
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "property": [
+                "F",
+                "L"
+            ],
+            "weapon": true,
+            "weight": 2,
+            "bonusWeapon": "+1",
+            "recharge": "dawn",
+            "entries": [
+                "The colorful surface of this sleek adamantine shortsword exhibits a perpetually shifting, iridescent sheen. You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+                "The sword has 5 charges and regains {@dice 1d4 + 1} charges daily at dawn. While holding it, you can use an action and expend 1 or more of its charges to cast one of the following spells from it, using spell save {@dc 15}: {@spell disguise self} (1 charge), {@spell hypnotic pattern} (3 charges), or {@spell mirror image} (2 charges)."
+            ]
+        },
+        {
+            "name": "Humble Cudgel of Temperance",
+            "source": "VoM",
+            "page": 26,
+            "baseItem": "club|PHB",
+            "type": "M",
+            "rarity": "uncommon",
+            "weaponCategory": "simple",
+            "dmg1": "1d4",
+            "dmgType": "B",
+            "property": [
+                "L"
+            ],
+            "weapon": true,
+            "weight": 2,
+            "entries": [
+                "This simple, polished club has a studded iron band around one end. When you attack a {@condition poisoned} creature with this magic weapon, you have advantage on the attack roll.",
+                "When you roll a 20 on an attack roll made with this weapon, the target becomes {@condition poisoned} for 1 minute. If the target was already {@condition poisoned}, it becomes {@condition incapacitated} instead. The target can make a {@dc 13} Constitution saving throw at the end of each of its turns, ending the {@condition poisoned} or {@condition incapacitated} condition on itself on a success."
+            ],
+            "hasFluff": true,
+            "fluff": {
+                "entries": [
+                    "FAUSTIN AND THE HUMBLE CUDGEL OF TEMPERANCE",
+                    "Formerly a moneylender with a heart of stone and a small army of brutal thugs, Faustin the Drunkard awoke one day with a punishing hangover that seemed never-ending. He took this as a sign of punishment from the gods, not for his violence and thievery, but for his taste for the grape, in abundance.",
+                    "He decided all problems stemmed from the “demon” alcohol, and he became a cleric. No less brutal than before, he and his thugs targeted public houses, ale makers, and more. In his quest to rid the world of alcohol, he had the {@i humble cudgel of temperance} made and blessed with terrifying power. Now long since deceased, his simple, humble-appearing club continues to wreck havoc wherever it turns up."
+                ]
+            }
         }
     ],
     "variant": [
@@ -1649,6 +1733,81 @@
                 "entries": [
                     "This armor bears gold or brass symbols of sunlight and sun deities and never tarnishes or rusts. The armor is immune to necrotic damage and rusting attacks such as those of a {@creature rust monster}. While wearing this armor, your maximum hit points can’t be reduced.",
                     "As an action, you can speak a command word to gain the effect of a {@spell protection from evil and good} spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead. Once you use this property, it can’t be used again until the next dawn."
+                ]
+            }
+        },
+        {
+            "name": "Hellfire Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "HA"
+                },
+                {
+                    "type": "MA"
+                }
+            ],
+            "excludes": {
+                "name": "hide"
+            },
+            "inherits": {
+                "namePrefix": "Hellfire ",
+                "source": "VoM",
+                "page": 25,
+                "rarity": "common",
+                "entries": [
+                    "This spiked armor is a dark, almost black crimson when inactive.",
+                    "While wearing this armor, you can use an action to cause it to glow and appear red-hot, giving you a hellish appearance. The armor sheds light as a candle, but it doesn’t emit heat. The effect lasts until you use a bonus action to end it.",
+                    "{@note This generic variant may only be applied to metal armor.}"
+                ]
+            }
+        },
+        {
+            "name": "Molten Hellfire Armor",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "HA"
+                },
+                {
+                    "type": "MA"
+                }
+            ],
+            "excludes": {
+                "name": "hide"
+            },
+            "inherits": {
+                "namePrefix": "Molten Hellfire ",
+                "source": "VoM",
+                "page": 25,
+                "rarity": "uncommon",
+                "entries": [
+                    "This spiked armor is a dark, almost black crimson when inactive.",
+                    "This more powerful version of {@item hellfire armor|VoM} has 3 charges. It regains all expended charges daily at dawn. If you expend 1 charge as part of the action to make the armor glow, you can make the armor emit heat in addition to light for 1 minute. For the duration, when a creature touches you or hits you with a melee attack while within 5 feet of you, it takes {@damage 1d4} fire damage. You are immune to the armor’s heat while wearing it.",
+                    "{@note This generic variant may only be applied to metal armor.}"
+                ]
+            }
+        },
+        {
+            "name": "Hidden Armament",
+            "type": "GV",
+            "requires": [
+                {
+                    "weapon": true,
+                    "type": "M"
+                }
+            ],
+            "excludes": {
+                "property": "2H"
+            },
+            "inherits": {
+                "namePrefix": "Hidden ",
+                "source": "VoM",
+                "page": 26,
+                "rarity": "uncommon",
+                "reqAttune": true,
+                "entries": [
+                    "While holding this magic weapon, you can use an action to transform it into a tattoo on the palm of your hand. You can use a bonus action to transform the tattoo back into a weapon."
                 ]
             }
         }
