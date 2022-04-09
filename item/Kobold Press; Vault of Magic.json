@@ -1135,6 +1135,27 @@
                     "He decided all problems stemmed from the “demon” alcohol, and he became a cleric. No less brutal than before, he and his thugs targeted public houses, ale makers, and more. In his quest to rid the world of alcohol, he had the {@i humble cudgel of temperance} made and blessed with terrifying power. Now long since deceased, his simple, humble-appearing club continues to wreck havoc wherever it turns up."
                 ]
             }
+        },
+        {
+            "name": "Impact Club",
+            "source": "VoM",
+            "page": 26,
+            "baseItem": "club|PHB",
+            "type": "M",
+            "rarity": "uncommon",
+            "reqAttune": true,
+            "weaponCategory": "simple",
+            "dmg1": "1d4",
+            "dmgType": "B",
+            "property": [
+                "L"
+            ],
+            "weapon": true,
+            "weight": 2,
+            "recharge": "dawn",
+            "entries": [
+                "This magic weapon has 3 charges and regains {@dice 1d3} expended charges daily at dawn. When you hit a target on your turn, you can take a bonus action to spend 1 charge and attempt to shove the target. The club grants you a +1 bonus on your Strength (Athletics) check to shove the target. If you roll a 20 on your attack roll with the club, you have advantage on your Strength (Athletics) check to shove the target, and you can push the target up to 10 feet away."
+            ]
         }
     ],
     "variant": [
@@ -1808,6 +1829,48 @@
                 "reqAttune": true,
                 "entries": [
                     "While holding this magic weapon, you can use an action to transform it into a tattoo on the palm of your hand. You can use a bonus action to transform the tattoo back into a weapon."
+                ]
+            }
+        },
+        {
+            "name": "Iceblink",
+            "type": "GV",
+            "requires": [
+                {
+                    "sword": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Iceblink ",
+                "source": "VoM",
+                "page": 26,
+                "rarity": "rare",
+                "reqAttune": true,
+                "recharge": "dawn",
+                "entries": [
+                    "The blade of this weapon is cool to the touch and gives off a yellow-white radiance, shedding bright light in a 10-foot radius and dim light for an additional 10 feet. In temperatures above freezing, vapor wafts off the chilled blade. When you hit with an attack using this magic sword, the target takes an extra {@damage 1d6} cold damage.",
+                    "{@b {@i Freeze Water.}} While holding the sword, you can use an action to plunge the blade into a body of water, causing its surface to freeze over. The water freezes to a depth of 3 inches within a 60-foot radius of the point where you plunged the blade. Creatures that were swimming on the surface of the water must succeed on a {@dc 15} Dexterity saving throw or be {@condition restrained} by the ice. A restrained creature can use an action to make a {@dc 15} Strength check, breaking free on a success. The ice is not magical and melts after 1 minute if temperatures in the area are not cold enough to sustain it. Once used, this property can’t be used again until the next dawn.",
+                    "{@b {@i Snowblind.}} While holding the sword, you can use an action to generate a bright flash of light from the blade at one creature you can see within 5 feet of you. The target must succeed on a {@dc 15} Constitution saving throw or be {@condition blinded} for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once used, this property can’t be used again until the next dawn."
+                ]
+            }
+        },
+        {
+            "name": "Impaling Weapon",
+            "type": "GV",
+            "requires": [
+                {
+                    "type": "M",
+                    "dmgType": "P"
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Impaling ",
+                "source": "VoM",
+                "page": 27,
+                "rarity": "rare",
+                "reqAttune": true,
+                "entries": [
+                    "When you attack a creature with this magic weapon and roll a 20 on the attack roll, you embed the weapon in the target. If the target is Medium or smaller and is within 5 feet of a wall or other solid object when you hit with this weapon, it is also {@condition restrained} while the weapon is embedded. At the end of the target’s turn while the weapon is embedded in it, the target takes damage equal to the weapon’s damage, with no additional modifiers. A creature, including the target, can use its action to make a {@dc 13} Strength check, removing the weapon from the target on a success. You can remove the embedded weapon from the target by speaking the weapon’s command word."
                 ]
             }
         }
