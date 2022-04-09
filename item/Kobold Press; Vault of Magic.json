@@ -1156,7 +1156,103 @@
             "entries": [
                 "This magic weapon has 3 charges and regains {@dice 1d3} expended charges daily at dawn. When you hit a target on your turn, you can take a bonus action to spend 1 charge and attempt to shove the target. The club grants you a +1 bonus on your Strength (Athletics) check to shove the target. If you roll a 20 on your attack roll with the club, you have advantage on your Strength (Athletics) check to shove the target, and you can push the target up to 10 feet away."
             ]
-        }
+        },
+        {
+            "name": "Knockabout Billet",
+            "source": "VoM",
+            "page": 27,
+            "baseItem": "club|PHB",
+            "type": "M",
+            "rarity": "common",
+            "weaponCategory": "simple",
+            "dmg1": "1d4",
+            "dmgType": "B",
+            "property": [
+                "L"
+            ],
+            "weapon": true,
+            "weight": 2,
+            "entries": [
+                "This stout, oaken cudgel helps you knock your opponents to the ground or away from you. When you hit a creature with this magic weapon, you can shove the target as part of the same attack, using your attack roll in place of a Strength (Athletics) check. The weapon deals damage as normal, regardless of the result of the shove. This property of the club can be used no more than once per hour."
+            ]
+        },
+        {
+			"name": "Kyshaarth’s Fang",
+			"source": "VoM",
+			"page": 27,
+			"baseItem": "dagger|phb",
+			"type": "M",
+			"rarity": "rare",
+            "reqAttune": true,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true,
+			"weight": 1,
+			"entries": [
+				"This dagger’s blade is composed of black, bone-like material. Tales suggest the weapon is fashioned from a {@creature voidling|ToB}’s tendril barb. When you hit with an attack using this magic weapon, the target takes an extra {@damage 2d6} necrotic damage. If you are in dim light or darkness, you regain a number of hit points equal to half the necrotic damage dealt."
+			]
+		},
+        {
+            "name": "Larkmail",
+            "source": "VoM",
+            "page": 27,
+            "baseItem": "chain mail|PHB",
+            "type": "HA",
+            "rarity": "rare",
+            "reqAttune": true,
+            "bonusAc": "+1",
+            "weight": 55,
+            "recharge": "dawn",
+            "entries": [
+                "While wearing this armor, you gain a +1 bonus to AC. The links of this mail have been stained to create the optical illusion that you are wearing a brown-andrusset feathered tunic. While you wear this armor, you have advantage on Charisma (Performance) checks made with an instrument.",
+                "In addition, while playing an instrument, you can use a bonus action and choose any number of creatures within 30 feet of you that can hear your song. Each target must succeed on a {@dc 15} Charisma saving throw or be charmed by you for 1 minute. Once used, this property can’t be used again until the next dawn."
+            ]
+        },
+        {
+            "name": "Living Juggernaut",
+            "source": "VoM",
+            "page": 27,
+            "baseItem": "plate armor|PHB",
+            "type": "HA",
+            "rarity": "rare",
+            "reqAttune": true,
+            "bonusAc": "+1",
+            "weight": 65,
+            "recharge": "dawn",
+            "entries": [
+                "This broad, bulky suit of plate is adorned with large, blunt spikes and has curving bull horns affixed to its helm. While wearing this armor, you gain a +1 bonus to AC, and difficult terrain doesn’t cost you extra movement.",
+                "{@b {@i Juggernaut Rush.}} While wearing this armor, you can use the Dash action to move into and through the spaces of any creatures no more than one size larger than you, physically ramming into them as you pass. You can’t ram into a creature more than once during the same movement. Each creature you ram must make a {@dc 15} Dexterity saving throw. On a successful save, the creature can choose to be pushed 5 feet away from your path. A creature that chooses not to be pushed or that chooses to make an opportunity attack against you suffers the consequences of a failed saving throw. On a failed save, the creature takes bludgeoning damage equal to {@damage 2d6} + your Strength modifier, and it is pushed 5 feet in a direction of your choice. Once used, this property of the armor can’t be used again until the next dawn."
+            ]
+        },
+        {
+			"name": "Lockbreaker",
+			"source": "VoM",
+			"page": 28,
+			"baseItem": "dagger|phb",
+			"type": "M",
+			"rarity": "common",
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true,
+			"weight": 1,
+			"entries": [
+				"You can use this stiletto-bladed dagger to open locks by using an action and making a Strength check. The DC is 5 less than the DC to pick the lock (minimum DC 10). On a success, the lock is broken."
+			]
+		}
     ],
     "variant": [
         {
@@ -1871,6 +1967,50 @@
                 "reqAttune": true,
                 "entries": [
                     "When you attack a creature with this magic weapon and roll a 20 on the attack roll, you embed the weapon in the target. If the target is Medium or smaller and is within 5 feet of a wall or other solid object when you hit with this weapon, it is also {@condition restrained} while the weapon is embedded. At the end of the target’s turn while the weapon is embedded in it, the target takes damage equal to the weapon’s damage, with no additional modifiers. A creature, including the target, can use its action to make a {@dc 13} Strength check, removing the weapon from the target on a success. You can remove the embedded weapon from the target by speaking the weapon’s command word."
+                ]
+            }
+        },
+        {
+            "name": "Labyrs of the Raging Bull",
+            "type": "GV",
+            "requires": [
+                {
+                    "name": "Greataxe"
+                },
+                {
+                    "name": "Battleaxe"
+                }
+            ],
+            "inherits": {
+                "nameSuffix": " of the Raging Bull",
+                "source": "VoM",
+                "page": 27,
+                "rarity": "rare",
+                "bonusWeapon": "+1",
+                "entries": [
+                    "You gain a +1 bonus to attack and damage rolls made with this magic weapon. While you wield the axe, you have advantage on Strength (Athletics) checks to shove a creature, and you can shove a creature up to two sizes larger than you."
+                ]
+            }
+        },
+        {
+            "name": "Leaf-Bladed Sword",
+            "type": "GV",
+            "requires": [
+                {
+                    "sword": true
+                }
+            ],
+            "inherits": {
+                "namePrefix": "Leaf-Bladed ",
+                "source": "VoM",
+                "page": 27,
+                "rarity": "rare",
+                "reqAttune": true,
+                "bonusWeapon": "+1",
+                "recharge": "dawn",
+                "entries": [
+                    "This thin, curved blade has a bell guard shaped like a curled, golden leaf. You gain a +1 bonus to attack and damage rolls with this magic weapon. When you hit an aberration or undead creature with it, that target takes an extra 1d8 damage of the weapon’s type.",
+                    "You can use an action to cast the {@spell barkskin} spell on yourself for 1 hour, requiring no concentration. Once used, this property can’t be used again until the next dawn."
                 ]
             }
         }
