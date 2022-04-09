@@ -1364,6 +1364,187 @@
                 "This finely balanced scimitar has an elaborate brass hilt. You gain a +2 bonus on attack and damage rolls made with this magic weapon. You can use a bonus action to speak the scimitar’s command word, causing the blade to shed bright green light in a 10-foot radius and dim light for an additional 10 feet. The light lasts until you use a bonus action to speak the command word again or until you drop or sheathe the scimitar.",
                 "When you roll a 20 on an attack roll made with this weapon, the target is overcome with the desire for mutiny. On the target’s next turn, it must make one attack against its nearest ally, then the effect ends, whether or not the attack was successful."
             ]
+        },
+        {
+			"name": "Odd Bodkin",
+			"source": "VoM",
+			"page": 30,
+			"baseItem": "dagger|phb",
+			"type": "M",
+			"rarity": "rare",
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true,
+			"weight": 1,
+            "bonusWeapon": "+1",
+			"entries": [
+				"This dagger has a twisted, jagged blade. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a creature other than a construct or an undead with this weapon, it loses 1d4 hit points at the start of each of its turns from a jagged wound. Each time you successfully hit the wounded target with this dagger, the damage dealt by the wound increases by {@damage 1d4}. Any creature can take an action to stanch the wound with a successful {@dc 11} Wisdom (Medicine) check. The wound also closes if the wounded creature receives magical healing."
+			]
+		},
+        {
+            "name": "Pestilent Spear",
+            "source": "VoM",
+            "page": 30,
+            "baseItem": "spear|PHB",
+            "type": "M",
+            "rarity": "uncommon",
+            "weaponCategory": "simple",
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "property": [
+                "T",
+                "V"
+            ],
+            "range": "20/60",
+            "weapon": true,
+            "weight": 3,
+            "entries": [
+                "The head of this spear is deadly sharp, despite the rust and slimy residue on it that always accumulate no matter how well it is cleaned. When you hit a creature with this magic weapon, it must succeed on a {@dc 13} Constitution saving throw or contract the {@disease sewer plague} disease."
+            ]
+        },
+        {
+            "name": "Phidjetz Spinner",
+            "source": "VoM",
+            "page": 30,
+            "baseItem": "dart|PHB",
+            "type": "R",
+            "rarity": "uncommon",
+            "reqAttune": "by a monk",
+            "weaponCategory": "simple",
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "property": [
+                "F",
+                "T"
+            ],
+            "range": "20/60",
+            "weapon": true,
+            "weight": 0.25,
+            "entries": [
+                "This dart was crafted by the monk Phidjetz, a martial recluse obsessed with dragons. The spinner consists of a golden central disk with four metal dragon heads protruding symmetrically from its center point: one red, one white, one blue and one black.",
+                "As an action, you can spin the disk using the pinch grip in its center. You choose a single target within 30 feet and make a ranged attack roll. The spinner then flies at the chosen target.",
+                "Once airborne, each dragon head emits a blast of elemental energy appropriate to its type. When you hit a creature, determine which dragon head affects it by rolling a d4 on the following chart.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "d4",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11 text-left"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "{@b Red.} The target takes {@damage 1d6} fire damage and combustible materials on the target ignite, doing {@damage 1d4} fire damage each turn until it is put out."
+                        ],
+                        [
+                            "2",
+                            "{@b White.} The target takes {@damage 1d6} cold damage and is restrained until the start of your next turn."
+                        ],
+                        [
+                            "3",
+                            "{@b Blue.} The target takes {@damage 1d6} lightning damage and is paralyzed until the start of your next turn."
+                        ],
+                        [
+                            "4",
+                            "{@b Black.} The target takes {@damage 1d6} acid damage and is poisoned until the start of your next turn."
+                        ]
+                    ]
+                },
+                "After the attack, the spinner flies up to 60 feet and tries to return to your hand. If you have no hand free, it falls to the ground at your feet."
+            ]
+        },
+        {
+            "name": "Pick of Ice Breaking",
+            "source": "VoM",
+            "page": 30,
+            "baseItem": "war pick|PHB",
+            "type": "M",
+            "rarity": "uncommon",
+            "weaponCategory": "martial",
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "bonusWeapon": "+1",
+            "weapon": true,
+            "weight": 2,
+            "recharge": "dawn",
+            "entries": [
+                "The metal head of this war pick is covered in tiny arcane runes. You gain a +1 bonus to attack and damage rolls made with this magic weapon. The bonus increases to +3 when you use the war pick to attack a construct, elemental, fey, or other creature made almost entirely of ice or snow. When you roll a 20 on an attack roll made with this weapon against such a creature, the target takes an extra {@damage 2d8} piercing damage. When you hit an object made of ice or snow with this weapon, the object doesn’t have a damage threshold when determining the damage you deal to it with this weapon."
+            ]
+        },
+        {
+            "name": "Pistol of the Umbral Court",
+            "source": "VoM",
+            "page": 30,
+            "baseItem": "hand crossbow|PHB",
+            "type": "R",
+            "rarity": "very rare",
+            "reqAttune": true,
+            "weaponCategory": "martial",
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "bonusWeapon": "+2",
+            "property": [
+                "A",
+                "L",
+                "LD"
+            ],
+            "range": "30/120",
+            "weapon": true,
+            "weight": 3,
+            "recharge": "dawn",
+            "entries": [
+                "This hand crossbow is made from coal-colored wood. Its limb is made from cold steel and boasts engravings of sharp teeth. The barrel is magically oiled and smells faintly of ash. The grip is made from rough leather.",
+                "You gain a +2 bonus on attack and damage rolls made with this magic weapon. When you hit with an attack with this weapon, you can force the target of your attack to succeed on a {@dc 15} Strength saving throw or be pushed 5 feet away from you. The target takes damage, as normal, whether it was pushed away or not.",
+                "As a bonus action, you can increase the distance creatures are pushed to 20 feet for 1 minute. If the creature strikes a solid object before the movement is complete, it takes {@damage 1d6} bludgeoning damage for every 10 feet traveled. Once used, this property of the crossbow can’t be used again until the next dawn."
+            ]
+        },
+        {
+            "name": "Poison Strand",
+            "source": "VoM",
+            "page": 30,
+            "baseItem": "whip|PHB",
+            "type": "M",
+            "rarity": "very rare",
+            "reqAttune": true,
+            "weaponCategory": "martial",
+            "dmg1": "1d4",
+            "dmgType": "S",
+            "property": [
+                "F",
+                "R"
+            ],
+            "weapon": true,
+            "weight": 3,
+            "recharge": "dawn",
+            "entries": [
+                "When you hit with an attack using this magic whip, the target takes an extra {@damage 2d4} poison damage.",
+                "If you hold one end of the whip and use an action to speak its command word, the other end magically extends and darts forward to entangle a creature you can see within 20 feet of you. The target must succeed on a {@dc 17} Dexterity saving throw or become {@condition restrained}. While restrained, the target takes {@damage 2d4} poison damage at the start of each of its turns, and you can use an action to pull the target up to 20 feet toward you. If you would move the target into damaging terrain, such as lava or a pit, it can make a {@dc 17} Strength saving throw. On a success, the target isn’t pulled toward you.",
+                "You can’t use the whip to make attacks while it is restraining a target, and if you release your end of the whip, the target is no longer {@condition restrained}. The restrained target can use an action to make a {@dc 17} Strength (Athletics) or Dexterity (Acrobatics) check (target’s choice). On a success, the target is no longer {@condition restrained} by the whip.",
+                "When the whip has {@condition restrained} creatures for a total of 1 minute, you can’t restrain a creature with the whip again until the next dawn."
+            ]
+        },
+        {
+            "name": "Primordial Scale",
+            "source": "VoM",
+            "page": 31,
+            "baseItem": "scale mail|PHB",
+            "type": "MA",
+            "rarity": "uncommon",
+            "reqAttune": true,
+            "weight": 45,
+            "entries": [
+                "This armor is fashioned from the scales of a great, subterranean beast shunned by the gods. While wearing it, you have darkvision out to a range of 60 feet. If you already have darkvision, wearing the armor increases its range by 60 feet, but you have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight when you are in sunlight. In addition, while wearing this armor, you have advantage on saving throws against spells cast by agents of the gods, such as celestials, fiends, clerics, and cultists."
+            ]
         }
     ],
     "variant": [
