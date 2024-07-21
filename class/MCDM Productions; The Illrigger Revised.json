@@ -17,7 +17,10 @@
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 0
+		"dateLastModified": 0,
+		"optionalFeatureTypes": {
+			"IBOON": "Interdict Boon"
+		}
 	},
 	"book": [
 		{
@@ -688,7 +691,33 @@
 			"page": 12,
 			"level": 2,
 			"entries": [
-				""
+				"You can infuse your seals with hellish magical power, enhancing their effects.",
+				{
+					"type": "entries",
+					"name": "Interdict Boons Known",
+					"entries": [
+						"You learn one interdict boon of your choice from the “{@filter Interdict Boons|optionalfeatures|feature type=IBOON}” {@homebrew list|section at the end of the class’s description}. As you gain levels in this class, you gain additional boons of your choice, as shown in the Interdict Boons column of the Illrigger table. Each new boon must be of a level you can learn. When you reach 7th level, for example, you learn one new boon of 2nd or 7th level.",
+						"Whenever you gain an illrigger level, you can choose a boon you know and replace it with another boon you can learn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Using Interdict Boons",
+					"entries": [
+						"Some boons allow you to expend unplaced seals to fuel abilities, while others empower all your seals or grant you benefits against interdicted creatures.",
+						"The boons that grant passive (or “always on”) benefits, such as the 2nd-level {@optfeature Swift Retribution|ILLRev} boon, are marked with a “Passive” tag. You don’t need to expend a seal or take an action to benefit from the passive boons you know. All other boons, such as the 2nd-level {@optfeature Abating Seal|ILLRev} boon, must be activated on a turn (for example, by expending a seal). You can activate only one non-passive boon per turn, regardless of how many you know."
+					]
+				},
+				{
+					"type": "inset",
+					"page": 12,
+					"name": "Burn vs. Expend",
+					"entries": [
+						"Burning a seal is part of the main gameplay loop of this class. The illrigger places a seal by using a bonus action or hitting a creature with an attack, then burns the seal for additional damage (as described in the Baleful Interdict class feature). Many interdict boons activate when you burn a seal; these burned seals deal the normal damage to the interdicted creature in addition to any effects granted by the boon.",
+						"Other interdict boons instead require you to expend a seal. In this case, the illrigger expends an {@i unplaced} seal from their pool of available seals. This may require using an action, bonus action, or reaction, but not always (such as in the case of the Hellspeaker’s {@subclassFeature Charm Enemy|Illrigger|ILLRev|Hellspeaker|ILLRig|3|ILLRev} feature, where you can expend seals to increase the number of targets).",
+						"Each active interdict boon details if any kind of action is required to expend the seal and activate the boon’s benefit. Part of the illrigger’s resource management is maximizing efficiency between burned seals (and their extra damage) and expended seals (and their unique effects)."
+					]
+				}
 			]
 		},
 		{
@@ -699,7 +728,7 @@
 			"page": 13,
 			"level": 3,
 			"entries": [
-				""
+				"You sign a diabolic contract with an archdevil who welcomes you into the Order of Desolation. Choose between the Architect of Ruin (Asmodeus), Hellspeaker (Moloch), Painkiller (Dispater), Sanguine Knight (Sutekh), or Shadowmaster (Belial) as your archdevil. {@homebrew |Each of these subclasses is detailed after the class’s description. }Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
 			]
 		},
 		{
@@ -710,7 +739,9 @@
 			"page": 13,
 			"level": 3,
 			"entries": [
-				""
+				"Your diabolic connection allows you to channel infernal energy to empower magical effects. Your chosen diabolic contract grants you two Invoke Hell options and describes how to use each.",
+				"When you use your Invoke Hell, you choose which option to use. You must then finish a short or long rest to use your Invoke Hell again.",
+				"Some Invoke Hell effects require a saving throw. When you use such an effect, the DC equals your interdict save DC."
 			]
 		},
 		{
@@ -721,7 +752,8 @@
 			"page": 13,
 			"level": 4,
 			"entries": [
-				""
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+				"Using the optional {@variantrule feats|PHB} rule, you can forgo taking this feature to take a {@filter feat|feats|} of your choice instead."
 			]
 		},
 		{
@@ -732,7 +764,7 @@
 			"page": 13,
 			"level": 5,
 			"entries": [
-				""
+				"You can attack twice, instead of once, whenever you take the {@action Attack} action on your turn."
 			]
 		},
 		{
@@ -743,7 +775,29 @@
 			"page": 13,
 			"level": 6,
 			"entries": [
-				""
+				"You can strengthen your allies at the cost of yourself—or drain your enemy’s life force for your own gain. You have a pool of Infernal Conduit dice, which are {@dice d10|d10s}. The number of Infernal Conduit dice in your pool increase as you gain illrigger levels, as shown in the Infernal Conduit Dice column of the Illrigger table.",
+				"As an action, you can touch another creature and spend one or more dice from your pool. The target must make a Constitution saving throw against your interdict save DC. A creature can willingly fail this saving throw. Roll the spent dice and choose one of the following effects:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Invigorate",
+							"entries": [
+								"On a failed save, the target regains hit points equal to the total you rolled, and you take necrotic damage equal to that total. On a successful save, the target regains half as many hit points, and you take necrotic damage equal to that total. Save or fail, this necrotic damage can’t be reduced in any way, and if this damage reduces you to 0 hit points, you fall {@condition unconscious} and are stabilized."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Devour",
+							"entries": [
+								"On a failed save, the target takes necrotic damage equal to the total you rolled, and you regain hit points equal to that total. On a successful save, the target takes half as much damage, and you regain hit points equal to the damage the target took. Save or fail, or if the target chose to fail their saving throw against this effect, the necrotic damage can’t be reduced in any way."
+							]
+						}
+					]
+				},
+				"You regain any spent Infernal Conduit dice when you finish a long rest."
 			]
 		},
 		{
@@ -754,7 +808,7 @@
 			"page": 13,
 			"level": 7,
 			"entries": [
-				""
+				"At 7th level, you gain another feature granted by your Diabolic Contract."
 			]
 		},
 		{
@@ -765,7 +819,8 @@
 			"page": 13,
 			"level": 8,
 			"entries": [
-				""
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+				"Using the optional {@variantrule feats|PHB} rule, you can forgo taking this feature to take a {@filter feat|feats|} of your choice instead."
 			]
 		},
 		{
@@ -794,7 +849,7 @@
 			"page": 14,
 			"level": 10,
 			"entries": [
-				""
+				"You can strengthen your defenses at the cost of your vitality. Whenever you fail a saving throw, you can spend one of your Hit Dice, rolling it and adding the number rolled to the result of the save."
 			]
 		},
 		{
@@ -805,7 +860,7 @@
 			"page": 13,
 			"level": 11,
 			"entries": [
-				""
+				"At 11th level, you gain another feature granted by your Diabolic Contract."
 			]
 		},
 		{
@@ -816,7 +871,7 @@
 			"page": 13,
 			"level": 11,
 			"entries": [
-				""
+				"When you reach 11th level in this class, the target of your Infernal Conduit also gains a level of {@condition exhaustion} on a failed save against the Devour effect. This level of {@condition exhaustion} can be reduced as normal, and a creature can’t suffer more than three levels of {@condition exhaustion} combined from all illriggers’ Infernal Conduit features."
 			]
 		},
 		{
@@ -827,7 +882,7 @@
 			"page": 14,
 			"level": 11,
 			"entries": [
-				""
+				"Your attacks are empowered with devastating might. When you gain this feature, choose a damage type: cold, fire, necrotic, or poison. When you hit with a weapon attack, you deal an extra {@damage 1d8} damage of the chosen type. You can choose a different damage type when you finish a long rest."
 			]
 		},
 		{
@@ -838,7 +893,8 @@
 			"page": 13,
 			"level": 12,
 			"entries": [
-				""
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+				"Using the optional {@variantrule feats|PHB} rule, you can forgo taking this feature to take a {@filter feat|feats|} of your choice instead."
 			]
 		},
 		{
@@ -849,7 +905,8 @@
 			"page": 14,
 			"level": 14,
 			"entries": [
-				""
+				"Damage from your seals ignores any damage resistances the target has.",
+				"In addition, you can use a bonus action to regain a seal if you have none remaining. Once you regain a seal in this way, you can’t do so again until you finish a long rest."
 			]
 		},
 		{
@@ -860,7 +917,7 @@
 			"page": 13,
 			"level": 15,
 			"entries": [
-				""
+				"At 15th level, you gain another feature granted by your Diabolic Contract."
 			]
 		},
 		{
@@ -871,7 +928,8 @@
 			"page": 13,
 			"level": 16,
 			"entries": [
-				""
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+				"Using the optional {@variantrule feats|PHB} rule, you can forgo taking this feature to take a {@filter feat|feats|} of your choice instead."
 			]
 		},
 		{
@@ -882,7 +940,18 @@
 			"page": 14,
 			"level": 17,
 			"entries": [
-				""
+				"Your archdevil bestows on you the ability to don a measure of their power. As a bonus action, you channel the might of Hell, gaining the following benefits for 10 minutes:",
+				{
+					"type": "list",
+					"items": [
+						"You gain resistance to fire, cold, and necrotic damage.",
+						"Wings appear on your back, granting you a flight speed of 60 feet.",
+						"When you use your Blood Price, you can cause an enemy you can see within 10 feet of you to take damage equal to the number rolled on your Hit Die.",
+						"When you hit with a weapon attack, your Terrorizing Force deals an extra {@damage 2d8} damage instead of {@damage 1d8}."
+					]
+				},
+				"For the duration, if you die, you can choose to have your body disappear in a burst of flame, leaving behind only your equipment. If you do, your body reforms {@dice 1d6} days later somewhere in Hell. Once your body reforms, you return to life and regain all of your hit points.",
+				"Once you channel your Infernal Majesty, you must finish a long rest before you can do so again."
 			]
 		},
 		{
@@ -893,7 +962,8 @@
 			"page": 13,
 			"level": 19,
 			"entries": [
-				""
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+				"Using the optional {@variantrule feats|PHB} rule, you can forgo taking this feature to take a {@filter feat|feats|} of your choice instead."
 			]
 		},
 		{
@@ -904,7 +974,35 @@
 			"page": 14,
 			"level": 20,
 			"entries": [
-				""
+				"You learn to tear open a rift to Hell and wreak its fury on your enemies. As an action, you can summon a hellstorm centered on a point you can see within 150 feet of you. Choose one of the following effects, which fills a 50-foot-radius sphere centered on that point:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Inferno",
+							"entries": [
+								"Hellfire rains down on your foes. Each enemy in that area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 5d10} fire damage plus {@damage 5d10} necrotic damage, and they burn for 1 minute. On a successful save, a creature takes half as much damage and does not burn. A creature burning in this way must repeat this saving throw at the end of their turn, taking {@damage 1d10} fire damage plus {@damage 1d10} necrotic damage on a failed save, or ending the effect on themself on a successful one. This hellfire can’t be extinguished by nonmagical means."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Pestilence",
+							"entries": [
+								"A foul miasma swirls around your foes. Each enemy in that area must make a Constitution saving throw. On a failed save, a creature takes {@damage 5d10} poison damage plus {@damage 5d10} necrotic damage and becomes {@condition poisoned} for 1 minute. On a successful save, a creature takes half as much damage and does not become {@condition poisoned}."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Darkness",
+							"entries": [
+								"A bitter storm assails your foes. Each enemy in that area must make a Constitution saving throw, taking {@damage 10d10} cold damage on a failed save, or half as much damage on a successful one. Additionally, the storm’s gloom persists for 1 minute, and each enemy within that area is {@condition blinded} for the duration or until they leave the area."
+							]
+						}
+					]
+				},
+				"Once you summon a hellstorm, you must finish a long rest before you can do so again."
 			]
 		}
 	]
