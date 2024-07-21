@@ -1005,5 +1005,349 @@
 				"Once you summon a hellstorm, you must finish a long rest before you can do so again."
 			]
 		}
+	],
+	"subclass": [
+		{
+			"name": "Architect of Ruin",
+			"source": "ILLRev",
+			"page": 17,
+			"className": "Illrigger",
+			"classSource": "ILLRev",
+			"shortName": "Architect",
+			"subclassFeatures": [
+				
+			],
+			"subclassTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|subclass=illrigger: architect (ilr)}",
+						"Spells Known"
+					],
+					"rows": [
+						[
+							"—",
+							"—"
+						],
+						[
+							"—",
+							"—"
+						],
+						[
+							2,
+							3
+						],
+						[
+							2,
+							4
+						],
+						[
+							2,
+							4
+						],
+						[
+							2,
+							4
+						],
+						[
+							2,
+							5
+						],
+						[
+							2,
+							6
+						],
+						[
+							2,
+							6
+						],
+						[
+							3,
+							7
+						],
+						[
+							3,
+							8
+						],
+						[
+							3,
+							8
+						],
+						[
+							3,
+							9
+						],
+						[
+							3,
+							10
+						],
+						[
+							3,
+							10
+						],
+						[
+							3,
+							11
+						],
+						[
+							3,
+							11
+						],
+						[
+							3,
+							11
+						],
+						[
+							3,
+							12
+						],
+						[
+							3,
+							13
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|subclass=illrigger: architect (ilr)}",
+						"{@filter 2nd|spells|level=2|subclass=illrigger: architect (ilr)}",
+						"{@filter 3rd|spells|level=3|subclass=illrigger: architect (ilr)}",
+						"{@filter 4th|spells|level=4|subclass=illrigger: architect (ilr)}"
+					],
+					"rows": [
+						[
+							"—",
+							"—",
+							"—",
+							"—"
+						],
+						[
+							"—",
+							"—",
+							"—",
+							"—"
+						],
+						[
+							2,
+							"—",
+							"—",
+							"—"
+						],
+						[
+							3,
+							"—",
+							"—",
+							"—"
+						],
+						[
+							3,
+							"—",
+							"—",
+							"—"
+						],
+						[
+							3,
+							"—",
+							"—",
+							"—"
+						],
+						[
+							4,
+							2,
+							"—",
+							"—"
+						],
+						[
+							4,
+							2,
+							"—",
+							"—"
+						],
+						[
+							4,
+							2,
+							"—",
+							"—"
+						],
+						[
+							4,
+							3,
+							"—",
+							"—"
+						],
+						[
+							4,
+							3,
+							"—",
+							"—"
+						],
+						[
+							4,
+							3,
+							"—",
+							"—"
+						],
+						[
+							4,
+							3,
+							2,
+							"—"
+						],
+						[
+							4,
+							3,
+							2,
+							"—"
+						],
+						[
+							4,
+							3,
+							2,
+							"—"
+						],
+						[
+							4,
+							3,
+							3,
+							"—"
+						],
+						[
+							4,
+							3,
+							3,
+							"—"
+						],
+						[
+							4,
+							3,
+							3,
+							"—"
+						],
+						[
+							4,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							1
+						]
+					]
+				}
+			],
+			"cantripProgression": [
+				0,
+				0,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3
+			],
+			"spellsKnownProgression": [
+				0,
+				0,
+				3,
+				4,
+				4,
+				4,
+				5,
+				6,
+				6,
+				7,
+				8,
+				8,
+				9,
+				10,
+				10,
+				11,
+				11,
+				11,
+				12,
+				13
+			],
+			"spellcastingAbility": "cha",
+			"subclassSpells": [
+				"chill touch",
+				"dancing lights",
+				"fire bolt",
+				"hellfire|ILLRev",
+				"message",
+				"minor illusion",
+				"ray of frost",
+				"shocking grasp",
+				"thaumaturgy",
+				"vengeful blade|ILLRev",
+				"vicious mockery",
+				"bane",
+				"burning hands",
+				"charm person",
+				"color spray",
+				"command",
+				"detect magic",
+				"disguise self",
+				"Hell’s lash|ILLRev",
+				"hellish rebuke",
+				"shield",
+				"shield of faith",
+				"silent image",
+				"arcanist’s magic aura",
+				"augury",
+				"blur",
+				"darkness",
+				"detect thoughts",
+				"enthrall",
+				"heat metal",
+				"hold person",
+				"infernal challenge|ILLRev",
+				"invisibility",
+				"lesser restoration",
+				"mirror image",
+				"ray of enfeeblement",
+				"scorching ray",
+				"silence",
+				"suggestion",
+				"bestow curse",
+				"dispel magic",
+				"fear",
+				"fly",
+				"haste",
+				"major image",
+				"mote of Hell|ILLRev",
+				"phantom steed",
+				"remove curse",
+				"revivify",
+				"slow",
+				"aura of desecration|ILLRev",
+				"banishment",
+				"blight",
+				"compulsion",
+				"death ward",
+				"dimension door",
+				"dominate beast",
+				"greater invisibility",
+				"hallucinatory terrain",
+				"locate creature",
+				"maligned weapon|ILLRev",
+				"phantasmal killer",
+				"wall of death|ILLRev"
+			]
+		}
 	]
 }
