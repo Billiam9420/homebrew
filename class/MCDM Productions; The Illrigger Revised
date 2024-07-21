@@ -1,0 +1,22 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ILR",
+				"abbreviation": "ILR",
+				"full": "MCDM - The Illrigger Revised",
+				"authors": [
+					"Matthew Colville"
+				],
+				"convertedBy": [
+					"ForeverAlwaysGM"
+				],
+				"version": "1.0.0",
+				"url": "https://shop.mcdmproductions.com/products/illrigger-class",
+                "color": "441515"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	}
+}
