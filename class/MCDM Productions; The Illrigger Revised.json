@@ -232,21 +232,33 @@
 				"Forked Tongue|Illrigger|ILLRev|1",
 				"Combat Mastery|Illrigger|ILLRev|2",
 				"Interdiction|Illrigger|ILLRev|2",
-				"Diabolic Contract|Illrigger|ILLRev|3",
+				{
+					"classFeature": "Diabolic Contract|Illrigger|ILLRev|3",
+					"gainSubclassFeature": true
+				},
 				"Invoke Hell|Illrigger|ILLRev|3",
 				"Ability Score Improvement|Illrigger|ILLRev|4",
 				"Extra Attack|Illrigger|ILLRev|5",
 				"Infernal Conduit|Illrigger|ILLRev|6",
-				"Diabolic Contract feature|Illrigger|ILLRev|7",
+				{
+					"classFeature": "Diabolic Contract feature|Illrigger|ILLRev|7",
+					"gainSubclassFeature": true
+				},
 				"Ability Score Improvement|Illrigger|ILLRev|8",
 				"Forked Tongue improvement|Illrigger|ILLRev|9",
 				"Blood Price|Illrigger|ILLRev|10",
-				"Diabolic Contract feature|Illrigger|ILLRev|11",
+				{
+					"classFeature": "Diabolic Contract feature|Illrigger|ILLRev|11",
+					"gainSubclassFeature": true
+				},
 				"Infernal Conduit improvement|Illrigger|ILLRev|11",
 				"Terrorizing Force|Illrigger|ILLRev|11",
 				"Ability Score Improvement|Illrigger|ILLRev|12",
 				"Superior Interdict|Illrigger|ILLRev|14",
-				"Diabolic Contract feature|Illrigger|ILLRev|15",
+				{
+					"classFeature": "Diabolic Contract feature|Illrigger|ILLRev|15",
+					"gainSubclassFeature": true
+				},
 				"Ability Score Improvement|Illrigger|ILLRev|16",
 				"Infernal Majesty|Illrigger|ILLRev|17",
 				"Ability Score Improvement|Illrigger|ILLRev|19",
@@ -546,7 +558,18 @@
 			"page": 11,
 			"level": 1,
 			"entries": [
-				""
+				"You can instinctively speak, read, and write {@language Infernal}.",
+				"In addition, you can speak two other languages of your choice, but you can’t read or write them. When you finish a long rest, you can draw on your archdevil’s knowledge to replace one of these two languages. When you do, choose another language whose name you know; you magically forget the previous language and gain this new one instead. Once you replace a language in this way, you must finish a long rest before you can do so again."
+			],
+			"languageProficiencies": [
+				{
+					"infernal": true
+				},
+				{
+					"choose": {
+						"count": 2
+					}
+				}
 			]
 		},
 		{
@@ -557,7 +580,104 @@
 			"page": 12,
 			"level": 2,
 			"entries": [
-				""
+				"Your archdevil grants you uncanny skill in a certain form of combat. Choose one of the following illrigger combat masteries:",
+				{
+					"type": "options",
+					"count": 1,
+					"entries": [
+						{
+							"type": "refClassFeature",
+							"classFeature": "Bravado|Illrigger|ILLRev|2|ILLRev"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Brutal|Illrigger|ILLRev|2|ILLRev"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Inexorable|Illrigger|ILLRev|2|ILLRev"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Lies|Illrigger|ILLRev|2|ILLRev"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Lissome|Illrigger|ILLRev|2|ILLRev"
+						},
+						{
+							"type": "refClassFeature",
+							"classFeature": "Unfettered|Illrigger|ILLRev|2|ILLRev"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Bravado",
+			"source": "ILLRev",
+			"className": "Illrigger",
+			"classSource": "ILLRev",
+			"page": 12,
+			"level": 2,
+			"entries": [
+				"While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Charisma modifier. You can use a shield and still gain this benefit."
+			]
+		},
+		{
+			"name": "Brutal",
+			"source": "ILLRev",
+			"className": "Illrigger",
+			"classSource": "ILLRev",
+			"page": 12,
+			"level": 2,
+			"entries": [
+				"When you hit a creature who is no more than one size larger than you with an attack you make with a melee weapon you are wielding with two hands, you can move the target 5 feet horizontally. If you choose, you can then spend your movement to move into the space they left."
+			]
+		},
+		{
+			"name": "Inexorable",
+			"source": "ILLRev",
+			"className": "Illrigger",
+			"classSource": "ILLRev",
+			"page": 12,
+			"level": 2,
+			"entries": [
+				"You gain a +1 bonus to saving throws for each hostile creature within 5 feet of you, to a maximum bonus of +5."
+			]
+		},
+		{
+			"name": "Lies",
+			"source": "ILLRev",
+			"className": "Illrigger",
+			"classSource": "ILLRev",
+			"page": 12,
+			"level": 2,
+			"entries": [
+				"You can choose one type of {@filter melee weapon|items|type=melee weapon|category=basic;!specific variant}, such as a {@item battleaxe|PHB}, {@item greatsword|PHB}, or {@item spear|PHB}. When you attack with that type of weapon, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls. You can choose a new weapon type, which replaces your previous choice, when you finish a long rest."
+			]
+		},
+		{
+			"name": "Lissome",
+			"source": "ILLRev",
+			"className": "Illrigger",
+			"classSource": "ILLRev",
+			"page": 12,
+			"level": 2,
+			"entries": [
+				"When you hit a creature with a melee weapon attack, you can spend your movement to move 5 feet without provoking opportunity attacks."
+			]
+		},
+		{
+			"name": "Unfettered",
+			"source": "ILLRev",
+			"className": "Illrigger",
+			"classSource": "ILLRev",
+			"page": 12,
+			"level": 2,
+			"entries": [
+				"When you use your Baleful Interdict to place or burn a seal, its range is 60 feet instead of 30 feet. When you gain the Infernal Conduit feature at 6th level, its range is 30 feet instead of touch.",
+				"In addition, making a ranged attack while within 5 feet of a hostile creature does not impose disadvantage on the attack roll."
 			]
 		},
 		{
@@ -656,7 +776,14 @@
 			"page": 11,
 			"level": 9,
 			"entries": [
-				""
+				"Starting at 9th level, the Forked Tongue feature grants you another language, for a total of three (in addition to {@language Infernal}). Furthermore, you gain advantage on Wisdom ({@skill Insight}) checks made to ascertain the intentions or sincerity of creatures."
+			],
+			"languageProficiencies": [
+				{
+					"choose": {
+						"count": 1
+					}
+				}
 			]
 		},
 		{
