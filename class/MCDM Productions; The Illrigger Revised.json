@@ -1,0 +1,22 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ILL",
+				"abbreviation": "ILL",
+				"full": "MCDM - The Illrigger Class",
+				"authors": [
+					"Matthew Colville"
+				],
+				"convertedBy": [
+					"Nexxom"
+				],
+				"version": "1.0.0",
+				"url": "https://shop.mcdmproductions.com/products/illrigger-class",
+				"color": "441515"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	}
+}
