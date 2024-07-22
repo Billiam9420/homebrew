@@ -1574,7 +1574,7 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"You learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn’t count against the number of interdict boons you know.",
+				"You learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn't count against the number of interdict boons you know.",
 				{
 					"type": "refOptionalfeature",
 					"optionalfeature": "Axiomatic Seals|ILLRev"
@@ -1614,7 +1614,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"You uncover two new ways to employ Asmodeus’s magic:",
+				"You uncover two new ways to employ Asmodeus's magic:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
@@ -1623,7 +1623,7 @@
 							"type": "item",
 							"name": "Regaining Seals",
 							"entries": [
-								"As a bonus action on your turn, you can expend one spell slot to regain a number of seals equal to that slot’s level."
+								"As a bonus action on your turn, you can expend one spell slot to regain a number of seals equal to that slot's level."
 							]
 						},
 						{
@@ -1635,7 +1635,7 @@
 						}
 					]
 				},
-				"Once you use one of these benefits, you can’t use that benefit again until you finish a long rest."
+				"Once you use one of these benefits, you can't use that benefit again until you finish a long rest."
 			]
 		}
 	],
@@ -1662,7 +1662,7 @@
 				}
 			],
 			"entries": [
-				"Asmodeus’s secrets allow you to infuse your seals with manifest power. When you burn one or more seals to deal damage to a creature, you can activate this boon (no action required) to add your Charisma modifier (minimum of 1) to each seal’s damage roll."
+				"Asmodeus's secrets allow you to infuse your seals with manifest power. When you burn one or more seals to deal damage to a creature, you can activate this boon (no action required) to add your Charisma modifier (minimum of 1) to each seal's damage roll."
 			]
 		},
 		{
@@ -1688,7 +1688,7 @@
 				}
 			],
 			"entries": [
-				"When an interdicted creature you can see within 60 feet of you casts a spell, you can use your reaction to burn one or more of the seals on them. When you do, burning the seal deals no damage, and instead you cast {@spell counterspell} on them without expending a spell slot. Your spell’s level increases by 1 for every additional seal you burn after the first."
+				"When an interdicted creature you can see within 60 feet of you casts a spell, you can use your reaction to burn one or more of the seals on them. When you do, burning the seal deals no damage, and instead you cast {@spell counterspell} on them without expending a spell slot. Your spell's level increases by 1 for every additional seal you burn after the first."
 			]
 		},
 		{
@@ -1731,9 +1731,9 @@
 					"page": 19,
 					"name": "A Versatile Spellcaster",
 					"entries": [
-						"During this class’s development, we wanted to merge the visions of our development team, playtesters, and the MCDM audience on what the Architect of Ruin should be. As a result, we revised this subclass many (many) times. At one point in testing, the subclass had the Pact Magic feature; this felt fun and thematic to some, but limiting and frustrating to others. We tried out several versions of the Spellcasting feature—a lessthan-third caster, a third-caster, and even a half-caster! Many players wanted a sneaky illusionist with out-ofcombat utility, while others wanted a gish with spells to empower combat.",
+						"During this class's development, we wanted to merge the visions of our development team, playtesters, and the MCDM audience on what the Architect of Ruin should be. As a result, we revised this subclass many (many) times. At one point in testing, the subclass had the Pact Magic feature; this felt fun and thematic to some, but limiting and frustrating to others. We tried out several versions of the Spellcasting feature\u2014a lessthan-third caster, a third-caster, and even a half-caster! Many players wanted a sneaky illusionist with out-ofcombat utility, while others wanted a gish with spells to empower combat.",
 						"We learned that half-casting made the subclass too complex, while Pact Magic was too limiting. After much iteration, trial, error, and oh-so-many playtests, we settled on the final Architect of Ruin design. This thirdcaster illrigger provides enough spells to create options without being overwhelming, and it gives the subclass exactly what we wanted: flexibility.",
-						"No subclass is a perfect fit for every character, but that’s why we offer so many of them! Manipulators and charmers can turn to the Hellspeaker, assassins can turn to the Shadowmaster, and so forth. Meanwhile, the Architect of Ruin is intended to make way for multiple play styles and support those who want a lot of options. Players who want a gish can turn to spells such as {@spell shield}, {@spell blur}, {@spell mirror image}, and {@spell haste}, while players who want more out-of-combat tools can choose spells such as {@spell disguise self}, {@spell silent image}, {@spell invisibility}, and enchantment spells."
+						"No subclass is a perfect fit for every character, but that's why we offer so many of them! Manipulators and charmers can turn to the Hellspeaker, assassins can turn to the Shadowmaster, and so forth. Meanwhile, the Architect of Ruin is intended to make way for multiple play styles and support those who want a lot of options. Players who want a gish can turn to spells such as {@spell shield}, {@spell blur}, {@spell mirror image}, and {@spell haste}, while players who want more out-of-combat tools can choose spells such as {@spell disguise self}, {@spell silent image}, {@spell invisibility}, and enchantment spells."
 					]
 				}
 			]
