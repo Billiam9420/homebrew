@@ -394,32 +394,32 @@
 						[
 							"3",
 							"{@damage 1d6}",
-							"—",
-							"—"
+							"\u2014",
+							"\u2014"
 						],
 						[
 							"3",
 							"{@damage 1d6}",
 							"1",
-							"—"
+							"\u2014"
 						],
 						[
 							"4",
 							"{@damage 1d6}",
 							"1",
-							"—"
+							"\u2014"
 						],
 						[
 							"4",
 							"{@damage 1d6}",
 							"1",
-							"—"
+							"\u2014"
 						],
 						[
 							"4",
 							"{@damage 2d6}",
 							"1",
-							"—"
+							"\u2014"
 						],
 						[
 							"4",
@@ -526,14 +526,14 @@
 			"page": 11,
 			"level": 1,
 			"entries": [
-				"You gain the ability to censure creatures with the power of Hell. Once on your turn, you can place a magical seal on a creature within 30 feet of you. You can either place this seal when you hit that target with a weapon attack (no action required), or you can use a bonus action to place this seal on a target you can see within range. This seal lasts for 1 minute or until burned (see “Burning Seals” below). A creature with one or more of your seals is referred to as an interdicted creature. Seals you place are invisible to other creatures, and when you can see an interdicted creature, the seals appear to you as glowing glyphs on the creature’s body.",
+				"You gain the ability to censure creatures with the power of Hell. Once on your turn, you can place a magical seal on a creature within 30 feet of you. You can either place this seal when you hit that target with a weapon attack (no action required), or you can use a bonus action to place this seal on a target you can see within range. This seal lasts for 1 minute or until burned (see \"Burning Seals\" below). A creature with one or more of your seals is referred to as an interdicted creature. Seals you place are invisible to other creatures, and when you can see an interdicted creature, the seals appear to you as glowing glyphs on the creature's body.",
 				"You can only place a limited number of seals before resting, and you regain all seals when you finish a short or long rest. The number of seals you can place increases as you gain illrigger levels, as indicated in the Seals column of the Illrigger table.",
-				"If an interdicted creature dies, you can use a bonus action on your turn to move all seals placed on them to a new creature you can see within 30 feet of them. Each seal’s duration continues to elapse when an interdicted creature dies and when that seal is moved to a new creature.",
+				"If an interdicted creature dies, you can use a bonus action on your turn to move all seals placed on them to a new creature you can see within 30 feet of them. Each seal's duration continues to elapse when an interdicted creature dies and when that seal is moved to a new creature.",
 				{
 					"type": "entries",
 					"name": "Burning Seals",
 					"entries": [
-						"When an interdicted creature you can see within 30 feet of you takes damage from any source other than a seal burned by an illrigger, you can burn any number of seals you placed on them to deal {@damage 1d6} fire or necrotic damage (your choice) to that creature per seal burned. You deal this damage immediately after the triggering damage. Burning a seal doesn’t require an action from you, but you can’t do so while incapacitated. Once a seal is burned, it immediately vanishes.",
+						"When an interdicted creature you can see within 30 feet of you takes damage from any source other than a seal burned by an illrigger, you can burn any number of seals you placed on them to deal {@damage 1d6} fire or necrotic damage (your choice) to that creature per seal burned. You deal this damage immediately after the triggering damage. Burning a seal doesn't require an action from you, but you can't do so while incapacitated. Once a seal is burned, it immediately vanishes.",
 						"Once you reach 5th level in this class, your connection to your archdevil strengthens. Each burned seal deals an extra {@damage 1d6} damage, for a total of {@damage 2d6}. The damage of each seal increases again by {@damage 1d6} when you reach 11th level (for a total of {@damage 3d6}) and 20th level (for a total of {@damage 4d6}) in this class, as indicated in the Seal Damage column of the Illrigger table."
 					]
 				},
@@ -562,7 +562,7 @@
 			"level": 1,
 			"entries": [
 				"You can instinctively speak, read, and write {@language Infernal}.",
-				"In addition, you can speak two other languages of your choice, but you can’t read or write them. When you finish a long rest, you can draw on your archdevil’s knowledge to replace one of these two languages. When you do, choose another language whose name you know; you magically forget the previous language and gain this new one instead. Once you replace a language in this way, you must finish a long rest before you can do so again."
+				"In addition, you can speak two other languages of your choice, but you can't read or write them. When you finish a long rest, you can draw on your archdevil's knowledge to replace one of these two languages. When you do, choose another language whose name you know; you magically forget the previous language and gain this new one instead. Once you replace a language in this way, you must finish a long rest before you can do so again."
 			],
 			"languageProficiencies": [
 				{
@@ -696,7 +696,7 @@
 					"type": "entries",
 					"name": "Interdict Boons Known",
 					"entries": [
-						"You learn one interdict boon of your choice from the “{@filter Interdict Boons|optionalfeatures|feature type=IBOON}” {@homebrew list|section at the end of the class’s description}. As you gain levels in this class, you gain additional boons of your choice, as shown in the Interdict Boons column of the Illrigger table. Each new boon must be of a level you can learn. When you reach 7th level, for example, you learn one new boon of 2nd or 7th level.",
+						"You learn one interdict boon of your choice from the \"{@filter Interdict Boons|optionalfeatures|feature type=IBOON}\" {@homebrew list|section at the end of the class's description}. As you gain levels in this class, you gain additional boons of your choice, as shown in the Interdict Boons column of the Illrigger table. Each new boon must be of a level you can learn. When you reach 7th level, for example, you learn one new boon of 2nd or 7th level.",
 						"Whenever you gain an illrigger level, you can choose a boon you know and replace it with another boon you can learn."
 					]
 				},
@@ -705,7 +705,7 @@
 					"name": "Using Interdict Boons",
 					"entries": [
 						"Some boons allow you to expend unplaced seals to fuel abilities, while others empower all your seals or grant you benefits against interdicted creatures.",
-						"The boons that grant passive (or “always on”) benefits, such as the 2nd-level {@optfeature Swift Retribution|ILLRev} boon, are marked with a “Passive” tag. You don’t need to expend a seal or take an action to benefit from the passive boons you know. All other boons, such as the 2nd-level {@optfeature Abating Seal|ILLRev} boon, must be activated on a turn (for example, by expending a seal). You can activate only one non-passive boon per turn, regardless of how many you know."
+						"The boons that grant passive (or \"always on\") benefits, such as the 2nd-level {@optfeature Swift Retribution|ILLRev} boon, are marked with a \"Passive\" tag. You don't need to expend a seal or take an action to benefit from the passive boons you know. All other boons, such as the 2nd-level {@optfeature Abating Seal|ILLRev} boon, must be activated on a turn (for example, by expending a seal). You can activate only one non-passive boon per turn, regardless of how many you know."
 					]
 				},
 				{
@@ -714,8 +714,8 @@
 					"name": "Burn vs. Expend",
 					"entries": [
 						"Burning a seal is part of the main gameplay loop of this class. The illrigger places a seal by using a bonus action or hitting a creature with an attack, then burns the seal for additional damage (as described in the Baleful Interdict class feature). Many interdict boons activate when you burn a seal; these burned seals deal the normal damage to the interdicted creature in addition to any effects granted by the boon.",
-						"Other interdict boons instead require you to expend a seal. In this case, the illrigger expends an {@i unplaced} seal from their pool of available seals. This may require using an action, bonus action, or reaction, but not always (such as in the case of the Hellspeaker’s {@subclassFeature Charm Enemy|Illrigger|ILLRev|Hellspeaker|ILLRig|3|ILLRev} feature, where you can expend seals to increase the number of targets).",
-						"Each active interdict boon details if any kind of action is required to expend the seal and activate the boon’s benefit. Part of the illrigger’s resource management is maximizing efficiency between burned seals (and their extra damage) and expended seals (and their unique effects)."
+						"Other interdict boons instead require you to expend a seal. In this case, the illrigger expends an {@i unplaced} seal from their pool of available seals. This may require using an action, bonus action, or reaction, but not always (such as in the case of the Hellspeaker's {@subclassFeature Charm Enemy|Illrigger|ILLRev|Hellspeaker|ILLRig|3|ILLRev} feature, where you can expend seals to increase the number of targets).",
+						"Each active interdict boon details if any kind of action is required to expend the seal and activate the boon's benefit. Part of the illrigger's resource management is maximizing efficiency between burned seals (and their extra damage) and expended seals (and their unique effects)."
 					]
 				}
 			]
@@ -728,7 +728,7 @@
 			"page": 13,
 			"level": 3,
 			"entries": [
-				"You sign a diabolic contract with an archdevil who welcomes you into the Order of Desolation. Choose between the Architect of Ruin (Asmodeus), Hellspeaker (Moloch), Painkiller (Dispater), Sanguine Knight (Sutekh), or Shadowmaster (Belial) as your archdevil. {@homebrew |Each of these subclasses is detailed after the class’s description. }Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+				"You sign a diabolic contract with an archdevil who welcomes you into the Order of Desolation. Choose between the Architect of Ruin (Asmodeus), Hellspeaker (Moloch), Painkiller (Dispater), Sanguine Knight (Sutekh), or Shadowmaster (Belial) as your archdevil. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
 			]
 		},
 		{
@@ -752,7 +752,7 @@
 			"page": 13,
 			"level": 4,
 			"entries": [
-				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 				"Using the optional {@variantrule feats|PHB} rule, you can forgo taking this feature to take a {@filter feat|feats|} of your choice instead."
 			]
 		},
@@ -775,7 +775,7 @@
 			"page": 13,
 			"level": 6,
 			"entries": [
-				"You can strengthen your allies at the cost of yourself—or drain your enemy’s life force for your own gain. You have a pool of Infernal Conduit dice, which are {@dice d10|d10s}. The number of Infernal Conduit dice in your pool increase as you gain illrigger levels, as shown in the Infernal Conduit Dice column of the Illrigger table.",
+				"You can strengthen your allies at the cost of yourself\u2014or drain your enemy's life force for your own gain. You have a pool of Infernal Conduit dice, which are {@dice d10|d10s}. The number of Infernal Conduit dice in your pool increase as you gain illrigger levels, as shown in the Infernal Conduit Dice column of the Illrigger table.",
 				"As an action, you can touch another creature and spend one or more dice from your pool. The target must make a Constitution saving throw against your interdict save DC. A creature can willingly fail this saving throw. Roll the spent dice and choose one of the following effects:",
 				{
 					"type": "list",
@@ -785,14 +785,14 @@
 							"type": "item",
 							"name": "Invigorate",
 							"entries": [
-								"On a failed save, the target regains hit points equal to the total you rolled, and you take necrotic damage equal to that total. On a successful save, the target regains half as many hit points, and you take necrotic damage equal to that total. Save or fail, this necrotic damage can’t be reduced in any way, and if this damage reduces you to 0 hit points, you fall {@condition unconscious} and are stabilized."
+								"On a failed save, the target regains hit points equal to the total you rolled, and you take necrotic damage equal to that total. On a successful save, the target regains half as many hit points, and you take necrotic damage equal to that total. Save or fail, this necrotic damage can't be reduced in any way, and if this damage reduces you to 0 hit points, you fall {@condition unconscious} and are stabilized."
 							]
 						},
 						{
 							"type": "item",
 							"name": "Devour",
 							"entries": [
-								"On a failed save, the target takes necrotic damage equal to the total you rolled, and you regain hit points equal to that total. On a successful save, the target takes half as much damage, and you regain hit points equal to the damage the target took. Save or fail, or if the target chose to fail their saving throw against this effect, the necrotic damage can’t be reduced in any way."
+								"On a failed save, the target takes necrotic damage equal to the total you rolled, and you regain hit points equal to that total. On a successful save, the target takes half as much damage, and you regain hit points equal to the damage the target took. Save or fail, or if the target chose to fail their saving throw against this effect, the necrotic damage can't be reduced in any way."
 							]
 						}
 					]
@@ -819,7 +819,7 @@
 			"page": 13,
 			"level": 8,
 			"entries": [
-				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 				"Using the optional {@variantrule feats|PHB} rule, you can forgo taking this feature to take a {@filter feat|feats|} of your choice instead."
 			]
 		},
@@ -871,7 +871,7 @@
 			"page": 13,
 			"level": 11,
 			"entries": [
-				"When you reach 11th level in this class, the target of your Infernal Conduit also gains a level of {@condition exhaustion} on a failed save against the Devour effect. This level of {@condition exhaustion} can be reduced as normal, and a creature can’t suffer more than three levels of {@condition exhaustion} combined from all illriggers’ Infernal Conduit features."
+				"When you reach 11th level in this class, the target of your Infernal Conduit also gains a level of {@condition exhaustion} on a failed save against the Devour effect. This level of {@condition exhaustion} can be reduced as normal, and a creature can't suffer more than three levels of {@condition exhaustion} combined from all illriggers' Infernal Conduit features."
 			]
 		},
 		{
@@ -893,7 +893,7 @@
 			"page": 13,
 			"level": 12,
 			"entries": [
-				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 				"Using the optional {@variantrule feats|PHB} rule, you can forgo taking this feature to take a {@filter feat|feats|} of your choice instead."
 			]
 		},
@@ -906,7 +906,7 @@
 			"level": 14,
 			"entries": [
 				"Damage from your seals ignores any damage resistances the target has.",
-				"In addition, you can use a bonus action to regain a seal if you have none remaining. Once you regain a seal in this way, you can’t do so again until you finish a long rest."
+				"In addition, you can use a bonus action to regain a seal if you have none remaining. Once you regain a seal in this way, you can't do so again until you finish a long rest."
 			]
 		},
 		{
@@ -928,7 +928,7 @@
 			"page": 13,
 			"level": 16,
 			"entries": [
-				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 				"Using the optional {@variantrule feats|PHB} rule, you can forgo taking this feature to take a {@filter feat|feats|} of your choice instead."
 			]
 		},
@@ -962,7 +962,7 @@
 			"page": 13,
 			"level": 19,
 			"entries": [
-				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 				"Using the optional {@variantrule feats|PHB} rule, you can forgo taking this feature to take a {@filter feat|feats|} of your choice instead."
 			]
 		},
@@ -983,7 +983,7 @@
 							"type": "item",
 							"name": "Inferno",
 							"entries": [
-								"Hellfire rains down on your foes. Each enemy in that area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 5d10} fire damage plus {@damage 5d10} necrotic damage, and they burn for 1 minute. On a successful save, a creature takes half as much damage and does not burn. A creature burning in this way must repeat this saving throw at the end of their turn, taking {@damage 1d10} fire damage plus {@damage 1d10} necrotic damage on a failed save, or ending the effect on themself on a successful one. This hellfire can’t be extinguished by nonmagical means."
+								"Hellfire rains down on your foes. Each enemy in that area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 5d10} fire damage plus {@damage 5d10} necrotic damage, and they burn for 1 minute. On a successful save, a creature takes half as much damage and does not burn. A creature burning in this way must repeat this saving throw at the end of their turn, taking {@damage 1d10} fire damage plus {@damage 1d10} necrotic damage on a failed save, or ending the effect on themself on a successful one. This hellfire can't be extinguished by nonmagical means."
 							]
 						},
 						{
@@ -997,7 +997,7 @@
 							"type": "item",
 							"name": "Darkness",
 							"entries": [
-								"A bitter storm assails your foes. Each enemy in that area must make a Constitution saving throw, taking {@damage 10d10} cold damage on a failed save, or half as much damage on a successful one. Additionally, the storm’s gloom persists for 1 minute, and each enemy within that area is {@condition blinded} for the duration or until they leave the area."
+								"A bitter storm assails your foes. Each enemy in that area must make a Constitution saving throw, taking {@damage 10d10} cold damage on a failed save, or half as much damage on a successful one. Additionally, the storm's gloom persists for 1 minute, and each enemy within that area is {@condition blinded} for the duration or until they leave the area."
 							]
 						}
 					]
@@ -1015,7 +1015,11 @@
 			"classSource": "ILLRev",
 			"shortName": "Architect",
 			"subclassFeatures": [
-				
+				"Architect of Ruin|Illrigger|ILLRev|Architect|ILLRev|3",
+				"Hellish Versatility|Illrigger|ILLRev|Architect|ILLRev|7",
+				"Asmodeus's Interdiction|Illrigger|ILLRev|Architect|ILLRev|7",
+				"Submit|Illrigger|ILLRev|Architect|ILLRev|11",
+				"Vile Transmogrification|Illrigger|ILLRev|Architect|ILLRev|15"
 			],
 			"subclassTableGroups": [
 				{
@@ -1025,12 +1029,12 @@
 					],
 					"rows": [
 						[
-							"—",
-							"—"
+							"\u2014",
+							"\u2014"
 						],
 						[
-							"—",
-							"—"
+							"\u2014",
+							"\u2014"
 						],
 						[
 							2,
@@ -1116,112 +1120,112 @@
 					],
 					"rows": [
 						[
-							"—",
-							"—",
-							"—",
-							"—"
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
 						],
 						[
-							"—",
-							"—",
-							"—",
-							"—"
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
 						],
 						[
 							2,
-							"—",
-							"—",
-							"—"
+							"\u2014",
+							"\u2014",
+							"\u2014"
 						],
 						[
 							3,
-							"—",
-							"—",
-							"—"
+							"\u2014",
+							"\u2014",
+							"\u2014"
 						],
 						[
 							3,
-							"—",
-							"—",
-							"—"
+							"\u2014",
+							"\u2014",
+							"\u2014"
 						],
 						[
 							3,
-							"—",
-							"—",
-							"—"
-						],
-						[
-							4,
-							2,
-							"—",
-							"—"
+							"\u2014",
+							"\u2014",
+							"\u2014"
 						],
 						[
 							4,
 							2,
-							"—",
-							"—"
+							"\u2014",
+							"\u2014"
 						],
 						[
 							4,
 							2,
-							"—",
-							"—"
+							"\u2014",
+							"\u2014"
 						],
 						[
 							4,
-							3,
-							"—",
-							"—"
-						],
-						[
-							4,
-							3,
-							"—",
-							"—"
-						],
-						[
-							4,
-							3,
-							"—",
-							"—"
-						],
-						[
-							4,
-							3,
 							2,
-							"—"
+							"\u2014",
+							"\u2014"
+						],
+						[
+							4,
+							3,
+							"\u2014",
+							"\u2014"
+						],
+						[
+							4,
+							3,
+							"\u2014",
+							"\u2014"
+						],
+						[
+							4,
+							3,
+							"\u2014",
+							"\u2014"
 						],
 						[
 							4,
 							3,
 							2,
-							"—"
+							"\u2014"
 						],
 						[
 							4,
 							3,
 							2,
-							"—"
+							"\u2014"
+						],
+						[
+							4,
+							3,
+							2,
+							"\u2014"
 						],
 						[
 							4,
 							3,
 							3,
-							"—"
+							"\u2014"
 						],
 						[
 							4,
 							3,
 							3,
-							"—"
+							"\u2014"
 						],
 						[
 							4,
 							3,
 							3,
-							"—"
+							"\u2014"
 						],
 						[
 							4,
@@ -1282,6 +1286,7 @@
 				12,
 				13
 			],
+			"casterProgression": "1/3",
 			"spellcastingAbility": "cha",
 			"subclassSpells": [
 				"chill touch",
@@ -1302,12 +1307,12 @@
 				"command",
 				"detect magic",
 				"disguise self",
-				"Hell’s lash|ILLRev",
+				"Hell's lash|ILLRev",
 				"hellish rebuke",
 				"shield",
 				"shield of faith",
 				"silent image",
-				"arcanist’s magic aura",
+				"arcanist's magic aura",
 				"augury",
 				"blur",
 				"darkness",
@@ -1347,6 +1352,390 @@
 				"maligned weapon|ILLRev",
 				"phantasmal killer",
 				"wall of death|ILLRev"
+			],
+			"hasFluff": true
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Architect of Ruin",
+			"source": "ILLRev",
+			"className": "Illrigger",
+			"classSource": "ILLRev",
+			"page": 17,
+			"subclassShortName": "Architect",
+			"subclassSource": "ILLRev",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i Architects of Ruin are cool and calculating arcane knights who serve Asmodeus, deploying spells, steel, and subterfuge to win at any cost.}",
+				"Asmodeus rules Acheron, the City of Fear. His illriggers scour the timescape, collecting secrets and spells designed to deceive and terrify his opponents. The war he fights against the other archdevils is one of deception and information.",
+				"His Architects of Ruin work to make Hell's enemies seem outnumbered and outmaneuvered. These illriggers are skillful spellblades on the battlefield, though some employ tactics such as research, infiltration, and propaganda to play mind games with their quarry. When an Architect of Ruin finally confronts an enemy, the advantage is theirs\u2014they have studied, prepared, and gripped fate within their gauntlet, forcing it to favor them. They hungrily seek the dark arts to arm both themselves and Asmodeus with the impossible.",
+				{
+					"type": "entries",
+					"name": "Precepts of Ruin",
+					"page": 17,
+					"entries": [
+						"Architects of Ruin swear an oath to Asmodeus when they join the Order of Desolation. These precepts commit them to destroy Asmodeus's enemies by commanding great magic, causing fear, and sowing distrust.",
+						{
+							"type": "item",
+							"name": "The Battlefield of the Mind",
+							"entries": [
+								"By the time my armies meet yours, you'll be filled with terror and doubt your own strength. I won't have to lift a finger to defeat you."
+							]
+						},
+						{
+							"type": "item",
+							"name": "The Proper Secret",
+							"entries": [
+								"Once I know your secrets, I know your weakness."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Knowledge Is Power",
+							"entries": [
+								"Lore is as powerful as steel. I learn every detail about my enemy and anticipate their every move, checkmating them before the game even begins."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Magic Is Mine to Command",
+							"entries": [
+								"Cunning is also as powerful as steel. I wield the dark arcane arts to manipulate your senses, weaken your resolve, and strengthen my blade. Your soldiers will quake for fear of what dark magics may next cloak my blade."
+							]
+						}
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Asmodeus's Blessing|Illrigger|ILLRev|Architect|ILLRev|3|ILLRev"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spellcasting|Illrigger|ILLRev|Architect|ILLRev|3|ILLRev"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Invoke Hell|Illrigger|ILLRev|Architect|ILLRev|3|ILLRev"
+				}
+			]
+		},
+		{
+			"name": "Asmodeus's Blessing",
+			"source": "ILLRev",
+			"className": "Illrigger",
+			"classSource": "ILLRev",
+			"page": 17,
+			"subclassShortName": "Architect",
+			"subclassSource": "ILLRev",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When Asmodeus accepts you as an Architect of Ruin, he grants you access to his infernal knowledge. You gain proficiency in one of the following skills of your choice: {@skill Arcana}, {@skill History}, {@skill Nature}, or {@skill Religion}.",
+				"In addition, you can also read and write the languages granted by your Forked Tongue, instead of only speaking them."
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"count": 1,
+						"from": [
+							"arcana",
+							"history",
+							"nature",
+							"religion"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "ILLRev",
+			"className": "Illrigger",
+			"classSource": "ILLRev",
+			"page": 17,
+			"subclassShortName": "Architect",
+			"subclassSource": "ILLRev",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"As an Architect of Ruin, you access a well of profane magic to cast spells. See \"{@book Spellcasting|PHB|10}\" in the core rules for the general rules of spellcasting.",
+				{
+					"type": "item",
+					"name": "Cantrips",
+					"entries": [
+						"You know two {@filter cantrips|spells|level=0|subclass=illrigger: architect (ilr)} of your choice from the Architect of Ruin spell list. You learn an additional cantrip from this list at 10th level."
+					]
+				},
+				{
+					"type": "item",
+					"name": "Spell Slots",
+					"entries": [
+						"The Architect of Ruin Spellcasting table shows how many spell slots you have to cast your illrigger spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"For example, if you know the 1st-level spell {@spell hellish rebuke} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell hellish rebuke} using either slot."
+					]
+				},
+				{
+					"type": "item",
+					"name": "Spells Known of 1st Level and Higher",
+					"entries": [
+						"At 3rd level, you know three {@filter 1st-level spells|spells|level=1|subclass=illrigger: architect (ilr)} of your choice from the Architect of Ruin spell list.",
+						"The Spells Known column of the Architect of Ruin Spellcasting table shows when you learn more illrigger spells of 1st level or higher. Each of these spells must be of a level for which you have spell slots. When you reach 7th level, for example, you learn one new spell of 1st or 2nd level.",
+						"Whenever you gain a level in this class, you can replace one of the illrigger spells you know with another spell of your choice from the illrigger spell list. The new spell must be of a level for which you have spell slots."
+					]
+				},
+				{
+					"type": "item",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Charisma is your spellcasting ability for your spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a spell you cast and when making an attack roll with one.",
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"cha"
+							]
+						},
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"cha"
+							]
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You have an unholy symbol, such as an amulet symbolizing your archdevil, a fragment of a blasphemous relic, or a glass orb holding a consecrated drop of archdevil blood. You can use the unholy symbol as a spellcasting focus for your illrigger spells. You must have a free hand to use the unholy symbol, but it can be the same hand you use to perform somatic components."
+					]
+				}
+			]
+		},
+		{
+			"name": "Invoke Hell",
+			"source": "ILLRev",
+			"className": "Illrigger",
+			"classSource": "ILLRev",
+			"page": 18,
+			"subclassShortName": "Architect",
+			"subclassSource": "ILLRev",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain the following two Invoke Hell options:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Enervating Spell",
+							"entries": [
+								"When you deal damage to a creature with an illrigger spell of 1st level or higher, you can expend a seal (no action required) and imbue the spell with weakening magic. The target has vulnerability to that spell's damage. If they normally have resistance or immunity to the spell's damage, that resistance or immunity is suppressed for this spell, and the target has vulnerability to the damage instead."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Spellblade",
+							"entries": [
+								"You can use an action to both make a melee weapon attack and cast an illrigger spell you know that has a casting time of one action."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hellish Versatility",
+			"source": "ILLRev",
+			"className": "Illrigger",
+			"classSource": "ILLRev",
+			"page": 19,
+			"subclassShortName": "Architect",
+			"subclassSource": "ILLRev",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Once on each of your turns, you can cast one of your illrigger cantrips in place of one of your attacks granted by your Extra Attack feature."
+			]
+		},
+		{
+			"name": "Asmodeus's Interdiction",
+			"source": "ILLRev",
+			"className": "Illrigger",
+			"classSource": "ILLRev",
+			"page": 19,
+			"subclassShortName": "Architect",
+			"subclassSource": "ILLRev",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"You learn the following additional interdict boons at the noted illrigger levels. Once you learn an interdict boon granted by this feature, you always know it, and it doesn’t count against the number of interdict boons you know.",
+				{
+					"type": "refOptionalfeature",
+					"optionalfeature": "Axiomatic Seals|ILLRev"
+				},
+				{
+					"type": "refOptionalfeature",
+					"optionalfeature": "Spellbreaker|ILLRev"
+				},
+				{
+					"type": "refOptionalfeature",
+					"optionalfeature": "Hell Mage|ILLRev"
+				}
+			]
+		},
+		{
+			"name": "Submit",
+			"source": "ILLRev",
+			"className": "Illrigger",
+			"classSource": "ILLRev",
+			"page": 19,
+			"subclassShortName": "Architect",
+			"subclassSource": "ILLRev",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"When you cast an illrigger spell you know, you can burn two seals on an interdicted creature (no action required) to impose disadvantage on their saving throw against the spell."
+			]
+		},
+		{
+			"name": "Vile Transmogrification",
+			"source": "ILLRev",
+			"className": "Illrigger",
+			"classSource": "ILLRev",
+			"page": 19,
+			"subclassShortName": "Architect",
+			"subclassSource": "ILLRev",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"You uncover two new ways to employ Asmodeus’s magic:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Regaining Seals",
+							"entries": [
+								"As a bonus action on your turn, you can expend one spell slot to regain a number of seals equal to that slot’s level."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Regaining Spell Slots",
+							"entries": [
+								"As a bonus action on your turn, you can expend any number of seals to regain a spell slot of a level equal to one-third that number. For example, you can expend six seals to regain a 2nd-level spell slot."
+							]
+						}
+					]
+				},
+				"Once you use one of these benefits, you can’t use that benefit again until you finish a long rest."
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Axiomatic Seals",
+			"source": "ILLRev",
+			"page": 19,
+			"featureType": [
+				"IBOON"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 7,
+						"class": {
+							"name": "Illrigger",
+							"source": "ILLRev"
+						},
+						"subclass": {
+							"name": "Architect of Ruin"
+						}
+					}
+				}
+			],
+			"entries": [
+				"Asmodeus’s secrets allow you to infuse your seals with manifest power. When you burn one or more seals to deal damage to a creature, you can activate this boon (no action required) to add your Charisma modifier (minimum of 1) to each seal’s damage roll."
+			]
+		},
+		{
+			"name": "Spellbreaker",
+			"source": "ILLRev",
+			"page": 19,
+			"featureType": [
+				"IBOON"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 13,
+						"class": {
+							"name": "Illrigger",
+							"source": "ILLRev"
+						},
+						"subclass": {
+							"name": "Architect of Ruin",
+							"source": "ILLRev"
+						}
+					}
+				}
+			],
+			"entries": [
+				"When an interdicted creature you can see within 60 feet of you casts a spell, you can use your reaction to burn one or more of the seals on them. When you do, burning the seal deals no damage, and instead you cast {@spell counterspell} on them without expending a spell slot. Your spell’s level increases by 1 for every additional seal you burn after the first."
+			]
+		},
+		{
+			"name": "Hell Mage",
+			"source": "ILLRev",
+			"page": 19,
+			"featureType": [
+				"IBOON"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 18,
+						"class": {
+							"name": "Illrigger",
+							"source": "ILLRev"
+						},
+						"subclass": {
+							"name": "Architect of Ruin",
+							"source": "ILLRev"
+						}
+					}
+				}
+			],
+			"entries": [
+				"When you or an ally within 30 feet of you succeed on a saving throw against a spell or other magical effect imposed by an enemy, you can immediately place one or more seals on that enemy, up to a number equal to your proficiency bonus."
+			]
+		}
+	],
+	"subclassFluff": [
+		{
+			"name": "Architect of Ruin",
+			"source": "ILLRev",
+			"shortName": "Architect",
+			"className": "ILLRigger",
+			"classSource": "ILLRev",
+			"entries": [
+				{
+					"type": "inset",
+					"page": 19,
+					"name": "A Versatile Spellcaster",
+					"entries": [
+						"During this class’s development, we wanted to merge the visions of our development team, playtesters, and the MCDM audience on what the Architect of Ruin should be. As a result, we revised this subclass many (many) times. At one point in testing, the subclass had the Pact Magic feature; this felt fun and thematic to some, but limiting and frustrating to others. We tried out several versions of the Spellcasting feature—a lessthan-third caster, a third-caster, and even a half-caster! Many players wanted a sneaky illusionist with out-ofcombat utility, while others wanted a gish with spells to empower combat.",
+						"We learned that half-casting made the subclass too complex, while Pact Magic was too limiting. After much iteration, trial, error, and oh-so-many playtests, we settled on the final Architect of Ruin design. This thirdcaster illrigger provides enough spells to create options without being overwhelming, and it gives the subclass exactly what we wanted: flexibility.",
+						"No subclass is a perfect fit for every character, but that’s why we offer so many of them! Manipulators and charmers can turn to the Hellspeaker, assassins can turn to the Shadowmaster, and so forth. Meanwhile, the Architect of Ruin is intended to make way for multiple play styles and support those who want a lot of options. Players who want a gish can turn to spells such as {@spell shield}, {@spell blur}, {@spell mirror image}, and {@spell haste}, while players who want more out-of-combat tools can choose spells such as {@spell disguise self}, {@spell silent image}, {@spell invisibility}, and enchantment spells."
+					]
+				}
 			]
 		}
 	]
