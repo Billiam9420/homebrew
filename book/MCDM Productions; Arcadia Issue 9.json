@@ -15,17 +15,19 @@
 				"convertedBy": [
 					"ForeverAlwaysGM (Billiam94)"
 				],
-				"version": "10/2021"
+				"version": "10/2021",
+				"color": "707442"
 			}
 		],
-		"dateAdded": 0,
-		"dateLastModified": 0,
-		"status": "wip",
-		"_dateLastModifiedHash": "d2f3180c31"
+		"dateAdded": 1721603400,
+		"dateLastModified": 1733169901,
+		"status": "ready",
+		"_dateLastModifiedHash": "ef3aa6f738",
+		"edition": "classic"
 	},
 	"book": [
 		{
-			"name": "Arcadia 9",
+			"name": "Arcadia Issue 9",
 			"id": "Ar9",
 			"source": "Arcadia9",
 			"group": "homebrew",
@@ -1027,8 +1029,8 @@
 				{
 					"choose": {
 						"from": [
-							"Medicine",
-							"Religion"
+							"medicine",
+							"religion"
 						]
 					}
 				}

@@ -274,8 +274,9 @@
 			}
 		],
 		"dateAdded": 1580686794,
-		"dateLastModified": 1710696369,
-		"_dateLastModifiedHash": "8deeb258c1"
+		"dateLastModified": 1733315669,
+		"_dateLastModifiedHash": "1747d1675f",
+		"edition": "classic"
 	},
 	"book": [
 		{
@@ -8951,8 +8952,8 @@
 			],
 			"toolProficiencies": [
 				{
-					"Disguise kit": true,
-					"musical instrument": true
+					"musical instrument": true,
+					"disguise kit": true
 				}
 			],
 			"startingEquipment": [
